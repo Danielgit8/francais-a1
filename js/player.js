@@ -1,7 +1,10 @@
 // Audio-Playlist: MP3s und stille Pausen nacheinander, mit Tempo, Endlosschleife und Sperrbildschirm-Steuerung.
 const PAUSES = [500, 1000, 1500, 2000, 2500, 3000];
 
-export const au = (id, lang, text, first = false) => ({ id, lang, text, first, src: `audio/${lang}/${id}.mp3` });
+// Kurzer Hash des Textes in der URL: Ändert sich eine Übersetzung, lädt das Handy das neue Audio statt der Offline-Kopie.
+const hash = s => { let h = 2166136261; for (const ch of s) h = Math.imul(h ^ ch.codePointAt(0), 16777619); return (h >>> 0).toString(36); };
+export const audioUrl = (id, lang, text) => `audio/${lang}/${id}.mp3?t=${hash(text)}`;
+export const au = (id, lang, text, first = false) => ({ id, lang, text, first, src: audioUrl(id, lang, text) });
 export function pz(ms) {
   if (!ms || ms <= 0) return null;
   const n = PAUSES.reduce((a, b) => (Math.abs(b - ms) < Math.abs(a - ms) ? b : a));

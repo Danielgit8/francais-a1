@@ -67,7 +67,7 @@ troisième | dritte(r)
 dernier, dernière | letzte(r)
 # Länder & Nationalitäten
 l'Allemagne (f) | Deutschland
-allemand, allemande | deutsch / Deutsche(r)
+allemand, allemande | deutsch; der/die Deutsche
 la France | Frankreich
 français, française | französisch / Franzose, Französin
 l'Autriche (f) | Österreich

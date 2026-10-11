@@ -1,7 +1,7 @@
 # kontakt | Begrüßen, Danken & Wünschen
 Bonjour madame, comment allez-vous ? | Guten Tag, wie geht es Ihnen?
 Très bien, merci. Et vous ? | Sehr gut, danke. Und Ihnen?
-Salut ! Ça va ? | Hallo! Geht's gut?
+Salut ! Ça va ? | Hallo! Wie geht's?
 Ça va bien, merci. Et toi ? | Gut, danke. Und dir?
 Pas mal, mais je suis un peu fatigué. | Nicht schlecht, aber ich bin ein bisschen müde.
 Bonsoir, monsieur. | Guten Abend.
@@ -9,21 +9,21 @@ Je vous présente Paul, mon collègue. | Ich stelle Ihnen Paul vor, meinen Kolle
 Je te présente Marie, ma sœur. | Ich stelle dir Marie vor, meine Schwester.
 Enchanté, je m'appelle Daniel. | Freut mich, ich heiße Daniel.
 On se tutoie ? | Wollen wir uns duzen?
-Au revoir et bonne journée ! | Auf Wiedersehen und schönen Tag!
+Au revoir et bonne journée ! | Auf Wiedersehen und einen schönen Tag!
 À demain ! | Bis morgen!
 À bientôt ! | Bis bald!
-À tout à l'heure ! | Bis später!
+À tout à l'heure ! | Bis nachher!
 Bonne soirée ! | Schönen Abend!
 Bon week-end ! | Schönes Wochenende!
 Bonne nuit ! | Gute Nacht!
 Merci beaucoup ! | Vielen Dank!
 Merci pour votre aide. | Danke für Ihre Hilfe.
-Merci pour le cadeau, il est très joli. | Danke für das Geschenk, es ist sehr hübsch.
+Merci pour le cadeau, il est très joli. | Danke für das Geschenk, es ist sehr schön.
 De rien. | Gern geschehen.
 Je vous en prie. | Bitte sehr.
 Excusez-moi, monsieur. | Entschuldigen Sie.
 Pardon, je suis désolé. | Entschuldigung, es tut mir leid.
-Désolé, je suis en retard. | Tut mir leid, ich bin zu spät.
+Désolé, je suis en retard. | Tut mir leid, ich komme zu spät.
 Ce n'est pas grave. | Das ist nicht schlimm.
 Pas de problème. | Kein Problem.
 Joyeux anniversaire ! | Alles Gute zum Geburtstag!
@@ -59,7 +59,7 @@ J'habite à Munich, en Allemagne. | Ich wohne in München, in Deutschland.
 Où habitez-vous ? | Wo wohnen Sie?
 Tu habites où ? | Wo wohnst du?
 J'habite douze, rue de la Paix, à Munich. | Ich wohne in der Rue de la Paix 12 in München.
-Quelle est votre adresse ? | Wie ist Ihre Adresse?
+Quelle est votre adresse ? | Wie lautet Ihre Adresse?
 J'habite seul. | Ich wohne allein.
 J'habite avec ma copine. | Ich wohne mit meiner Freundin zusammen.
 Mon numéro de téléphone, c'est le zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit. | Meine Telefonnummer ist 06 12 34 56 78.
@@ -81,7 +81,7 @@ J'apprends le français depuis six mois. | Ich lerne seit sechs Monaten Französ
 # familie | Familie & Personen
 J'ai un frère et deux sœurs. | Ich habe einen Bruder und zwei Schwestern.
 Je suis fils unique. | Ich bin Einzelkind.
-Nous sommes quatre dans ma famille. | Wir sind zu viert in meiner Familie.
+Nous sommes quatre dans ma famille. | In meiner Familie sind wir zu viert.
 Voici mon père. Il s'appelle Thomas. | Das ist mein Vater. Er heißt Thomas.
 Voici ma mère. Elle s'appelle Marie. | Das ist meine Mutter. Sie heißt Marie.
 Ce sont mes parents. | Das sind meine Eltern.
@@ -113,15 +113,15 @@ Ma sœur est timide et calme. | Meine Schwester ist schüchtern und ruhig.
 Mon ami est sympa et intelligent. | Mein Freund ist sympathisch und intelligent.
 Comment est ton frère ? | Wie ist dein Bruder?
 Qui est-ce ? C'est mon voisin. | Wer ist das? Das ist mein Nachbar.
-Ma collègue est jeune et très sérieuse. | Meine Kollegin ist jung und sehr ernst.
+Ma collègue est jeune et très sérieuse. | Meine Kollegin ist jung und sehr gewissenhaft.
 Mon chien s'appelle Max. | Mein Hund heißt Max.
 # vorlieben | Vorlieben & Hobbys
-J'adore le cinéma. | Ich liebe das Kino.
+J'adore le cinéma. | Ich liebe Kino.
 J'aime beaucoup la musique. | Ich mag Musik sehr.
 J'aime bien lire. | Ich lese gern.
 Je n'aime pas le football. | Ich mag Fußball nicht.
 Je déteste le froid. | Ich hasse die Kälte.
-Je préfère le thé. | Ich mag lieber Tee.
+Je préfère le thé. | Ich trinke lieber Tee.
 Je préfère rester à la maison. | Ich bleibe lieber zu Hause.
 Qu'est-ce que vous faites pendant votre temps libre ? | Was machen Sie in Ihrer Freizeit?
 Quels sont tes loisirs ? | Was sind deine Hobbys?
@@ -133,7 +133,7 @@ Je joue au tennis le samedi. | Samstags spiele ich Tennis.
 Je joue aux cartes avec mes amis. | Ich spiele Karten mit meinen Freunden.
 Je joue de la guitare. | Ich spiele Gitarre.
 Je joue du piano depuis dix ans. | Ich spiele seit zehn Jahren Klavier.
-J'aime voyager et faire des photos. | Ich reise gern und mache gern Fotos.
+J'aime voyager et prendre des photos. | Ich reise gern und fotografiere gern.
 J'aime cuisiner pour mes amis. | Ich koche gern für meine Freunde.
 Je vais souvent au cinéma. | Ich gehe oft ins Kino.
 Je vais à la piscine le mercredi. | Mittwochs gehe ich ins Schwimmbad.
@@ -215,8 +215,8 @@ On se retrouve où ? | Wo treffen wir uns?
 On se retrouve à quelle heure ? | Um wie viel Uhr treffen wir uns?
 Rendez-vous à vingt heures devant le cinéma. | Wir treffen uns um zwanzig Uhr vor dem Kino.
 Désolé, je ne peux pas. | Tut mir leid, ich kann nicht.
-Je ne suis pas libre samedi, je dois travailler. | Ich habe Samstag keine Zeit, ich muss arbeiten.
-J'ai déjà un rendez-vous. | Ich habe schon etwas vor.
+Je ne suis pas libre samedi, je dois travailler. | Ich habe am Samstag keine Zeit, ich muss arbeiten.
+J'ai déjà un rendez-vous. | Ich habe schon eine Verabredung.
 Une autre fois, peut-être ? | Vielleicht ein anderes Mal?
 Et dimanche, ça va ? | Und Sonntag, passt das?
 Je voudrais prendre rendez-vous, s'il vous plaît. | Ich möchte bitte einen Termin vereinbaren.
@@ -237,7 +237,7 @@ Il y a un balcon. | Es gibt einen Balkon.
 Il n'y a pas de jardin. | Es gibt keinen Garten.
 Mon appartement est petit mais très clair. | Meine Wohnung ist klein, aber sehr hell.
 Ma maison est grande et calme. | Mein Haus ist groß und ruhig.
-L'appartement est moderne et confortable. | Die Wohnung ist modern und bequem.
+L'appartement est moderne et confortable. | Die Wohnung ist modern und komfortabel.
 J'habite dans le centre-ville. | Ich wohne in der Innenstadt.
 J'habite à la campagne. | Ich wohne auf dem Land.
 J'aime mon quartier parce que c'est calme. | Ich mag mein Viertel, weil es ruhig ist.
@@ -281,7 +281,7 @@ C'est derrière la mairie. | Es ist hinter dem Rathaus.
 C'est entre la pharmacie et le café. | Es ist zwischen der Apotheke und dem Café.
 C'est au bout de la rue. | Es ist am Ende der Straße.
 C'est au coin de la rue. | Es ist an der Ecke der Straße.
-C'est à cinq minutes à pied. | Es ist fünf Minuten zu Fuß.
+C'est à cinq minutes à pied. | Es sind fünf Minuten zu Fuß.
 C'est tout près. | Es ist ganz in der Nähe.
 C'est un peu loin, prenez le bus. | Es ist ein bisschen weit, nehmen Sie den Bus.
 Prenez la ligne quatre du métro. | Nehmen Sie die Metrolinie vier.
@@ -320,7 +320,7 @@ Où sont les cabines ? | Wo sind die Umkleidekabinen?
 C'est trop petit. | Das ist zu klein.
 C'est un peu grand. | Das ist ein bisschen groß.
 Ça vous va très bien ! | Das steht Ihnen sehr gut!
-Je la prends. | Ich nehme sie.
+Je le prends. | Ich nehme ihn.
 Je vais réfléchir. | Ich überlege es mir noch.
 Je peux payer par carte ? | Kann ich mit Karte bezahlen?
 Je paie en espèces. | Ich zahle bar.
@@ -328,7 +328,7 @@ Où est la caisse ? | Wo ist die Kasse?
 Voilà vingt euros. | Hier sind zwanzig Euro.
 Voici votre monnaie. | Hier ist Ihr Wechselgeld.
 Je peux avoir un sac, s'il vous plaît ? | Kann ich bitte eine Tüte haben?
-Il y a des soldes cette semaine. | Diese Woche ist Ausverkauf.
+Il y a des soldes cette semaine. | Diese Woche ist Schlussverkauf.
 Je fais les courses au marché le samedi. | Samstags kaufe ich auf dem Markt ein.
 Je cherche un cadeau pour ma mère. | Ich suche ein Geschenk für meine Mutter.
 # restaurant | Café & Restaurant
@@ -392,7 +392,7 @@ Il y a le wifi ? | Gibt es WLAN?
 Voici la clé. Votre chambre est au deuxième étage. | Hier ist der Schlüssel. Ihr Zimmer ist im zweiten Stock.
 La douche ne marche pas. | Die Dusche funktioniert nicht.
 Voici mon passeport. | Hier ist mein Reisepass.
-Je suis en vacances à Nice. | Ich bin im Urlaub in Nizza.
+Je suis en vacances à Nice. | Ich mache Urlaub in Nizza.
 Je reste une semaine. | Ich bleibe eine Woche.
 Je suis à l'hôtel près de la plage. | Ich bin im Hotel in der Nähe des Strandes.
 Je visite la ville et les musées. | Ich besichtige die Stadt und die Museen.
@@ -400,13 +400,13 @@ Cet été, je vais en Espagne. | Diesen Sommer fahre ich nach Spanien.
 Je vais au Portugal en avion. | Ich fliege nach Portugal.
 Je voudrais aller aux États-Unis. | Ich möchte in die USA reisen.
 Ma valise est trop lourde. | Mein Koffer ist zu schwer.
-Le vol est annulé. | Der Flug ist annulliert.
+Le vol est annulé. | Der Flug ist gestrichen.
 # gesundheit | Befinden & Gesundheit
 J'ai faim. | Ich habe Hunger.
 J'ai soif. | Ich habe Durst.
 J'ai froid. | Mir ist kalt.
 J'ai chaud. | Mir ist warm.
-J'ai sommeil. | Ich bin müde.
+J'ai sommeil. | Ich bin schläfrig.
 Je suis fatigué. | Ich bin müde.
 Je suis malade. | Ich bin krank.
 Je me sens mal. | Mir geht es schlecht.
@@ -422,7 +422,7 @@ J'ai un rhume. | Ich habe Schnupfen.
 J'ai la grippe. | Ich habe Grippe.
 Je tousse beaucoup. | Ich huste viel.
 Je dois aller chez le médecin. | Ich muss zum Arzt gehen.
-Je voudrais prendre rendez-vous chez le dentiste. | Ich möchte einen Termin beim Zahnarzt.
+Je voudrais prendre rendez-vous chez le dentiste. | Ich möchte einen Termin beim Zahnarzt machen.
 Vous avez quelque chose contre la toux ? | Haben Sie etwas gegen Husten?
 Je voudrais un médicament contre le mal de tête. | Ich möchte ein Mittel gegen Kopfschmerzen.
 Prenez un comprimé trois fois par jour. | Nehmen Sie dreimal täglich eine Tablette.
@@ -434,7 +434,7 @@ Appelez une ambulance ! | Rufen Sie einen Krankenwagen!
 Appelez la police ! | Rufen Sie die Polizei!
 J'ai perdu mon portefeuille. | Ich habe meinen Geldbeutel verloren.
 On m'a volé mon sac. | Man hat mir meine Tasche gestohlen.
-Ça va mieux aujourd'hui. | Heute geht es besser.
+Ça va mieux aujourd'hui. | Heute geht es mir besser.
 Je suis content, je suis en forme. | Ich bin froh, ich bin fit.
 Elle est triste. | Sie ist traurig.
 Je suis stressé à cause du travail. | Ich bin wegen der Arbeit gestresst.
@@ -460,7 +460,7 @@ Samedi, j'ai fait les courses. | Am Samstag habe ich eingekauft.
 Le week-end dernier, je suis allé à la mer. | Letztes Wochenende bin ich ans Meer gefahren.
 Je suis allé au cinéma avec mes amis. | Ich bin mit meinen Freunden ins Kino gegangen.
 J'ai visité le Louvre. | Ich habe den Louvre besichtigt.
-J'ai vu un concert. | Ich habe ein Konzert gesehen.
+J'ai vu un concert. | Ich war auf einem Konzert.
 J'ai pris le train pour Lyon. | Ich habe den Zug nach Lyon genommen.
 Nous sommes rentrés tard. | Wir sind spät nach Hause gekommen.
 Elle est née en mille neuf cent quatre-vingt-dix. | Sie ist 1990 geboren.
@@ -470,12 +470,12 @@ Tu as fait quoi ce week-end ? | Was hast du am Wochenende gemacht?
 Qu'est-ce que tu as fait hier ? | Was hast du gestern gemacht?
 Ce soir, je vais faire la cuisine. | Heute Abend werde ich kochen.
 Demain, je vais travailler. | Morgen werde ich arbeiten.
-Ce week-end, je vais voir ma grand-mère. | Dieses Wochenende besuche ich meine Großmutter.
+Ce week-end, je vais voir ma grand-mère. | Dieses Wochenende werde ich meine Großmutter besuchen.
 Pendant les vacances, je vais aller en Italie. | In den Ferien werde ich nach Italien fahren.
 L'année prochaine, je vais apprendre l'espagnol. | Nächstes Jahr werde ich Spanisch lernen.
 Je ne vais pas venir demain. | Ich werde morgen nicht kommen.
 J'aimerais visiter Paris. | Ich würde gern Paris besichtigen.
-Qu'est-ce que tu vas faire ce soir ? | Was machst du heute Abend?
+Qu'est-ce que tu vas faire ce soir ? | Was wirst du heute Abend machen?
 Je viens d'arriver. | Ich bin gerade angekommen.
 # verstaendigung | Verständigung, Bitten & Telefon
 Pardon ? | Wie bitte?

@@ -48,16 +48,29 @@ async def main():
     for f in list(AUDIO.glob("fr/*.mp3")) + list(AUDIO.glob("de/*.mp3")):
         if f.stem not in cards:  # Karte gelöscht oder Text geändert
             f.unlink()
+    # texts.json merkt sich den gesprochenen Text je Datei, damit geänderte Übersetzungen neu vertont werden.
+    tf = AUDIO / "texts.json"
+    if tf.exists():
+        texts = json.loads(tf.read_text(encoding="utf-8"))
+    else:
+        texts = {f"{l}/{cid}": speak_text(c[l]) for cid, c in cards.items() for l in ("fr", "de")
+                 if (AUDIO / l / f"{cid}.mp3").exists()}
     jobs = []
     for cid, c in cards.items():
         for lang in ("fr", "de"):
-            p = AUDIO / lang / f"{cid}.mp3"
-            if not p.exists():
+            p, key, text = AUDIO / lang / f"{cid}.mp3", f"{lang}/{cid}", speak_text(c[lang])
+            if not p.exists() or texts.get(key) != text:
                 p.parent.mkdir(parents=True, exist_ok=True)
-                jobs.append((speak_text(c[lang]), VOICE[lang], p))
+                jobs.append((text, VOICE[lang], p))
+                texts[key] = text
     print(f"{len(jobs)} Dateien zu erzeugen")
     sem = asyncio.Semaphore(8)
     res = await asyncio.gather(*(tts(sem, *j) for j in jobs))
+    for (_, _, p), ok in zip(jobs, res):
+        if not ok:
+            texts.pop(f"{p.parent.name}/{p.stem}", None)
+    texts = {k: v for k, v in texts.items() if k.split("/")[1] in cards}
+    tf.write_text(json.dumps(texts, ensure_ascii=False, indent=0), encoding="utf-8")
     print(f"fertig: {sum(1 for r in res if r)} ok, {sum(1 for r in res if not r)} Fehler")
 
 

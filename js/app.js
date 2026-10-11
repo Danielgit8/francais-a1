@@ -3,6 +3,7 @@ import * as srs from './srs.js';
 import * as sync from './sync.js';
 import { runSession } from './modes.js';
 import { md } from './md.js';
+import { audioUrl } from './player.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -181,7 +182,7 @@ addEventListener('popstate', endSession);
 async function download(gid) {
   const out = document.getElementById(`dl-${gid}`);
   const ids = gid === '*' ? Object.keys(D.cards) : byId[gid].blocks.flat();
-  const urls = ids.flatMap(id => [`audio/fr/${id}.mp3`, `audio/de/${id}.mp3`]).concat([500, 1000, 1500, 2000, 2500, 3000].map(p => `audio/p/${p}.wav`));
+  const urls = ids.flatMap(id => ['fr', 'de'].map(l => audioUrl(id, l, D.cards[id][l]))).concat([500, 1000, 1500, 2000, 2500, 3000].map(p => `audio/p/${p}.wav`));
   const cache = await caches.open('fra1-audio');
   let done = 0, fail = 0;
   const work = async () => {
