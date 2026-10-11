@@ -64,3 +64,4 @@ details{margin-top:8px}summary{color:var(--muted);font-size:14px;cursor:pointer}
 .md th{background:var(--acc2)}
 .md blockquote{margin:8px 0;padding:8px 12px;border-left:3px solid var(--acc);background:var(--acc2);border-radius:6px}
 .md code{background:var(--acc2);padding:1px 4px;border-radius:4px}
+.dl{font-size:13px;color:var(--muted);margin-top:8px}.dl .bar{margin:6px 0 0}

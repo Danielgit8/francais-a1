@@ -1,4 +1,4 @@
-import * as store from './store.js';
+﻿import * as store from './store.js';
 import * as srs from './srs.js';
 import * as sync from './sync.js';
 import { runSession } from './modes.js';
@@ -93,7 +93,7 @@ function vGroup(id) {
   const all = g.blocks.flat(), back = g.kind === 's' ? 'inseln' : 'vokabeln';
   return `<a href="#${back}" class="back">‹ Zurück</a><h2 class="pt">${esc(g.title)}</h2>
     <section class="card"><h3>Alles</h3>${actions(all, g.title, 'cde')}
-      <button class="ghost" data-dl="${g.id}">Offline laden</button> <small id="dl-${g.id}"></small></section>` +
+      <button class="ghost" data-dl="${g.id}">Offline laden</button> <div id="dl-${g.id}" class="dl"></div></section>` +
     g.blocks.map((b, i) => `<section class="card"><h3>Block ${i + 1} <small>${seenN(b)}/${b.length} gesehen · ${sitsN(b)} sitzen</small></h3>
       ${actions(b, `${g.title} · Block ${i + 1}`)}
       <details><summary>Inhalt</summary>${b.map(c => `<div class="li"><span>${esc(D.cards[c].fr)}</span><small>${esc(D.cards[c].de)}</small></div>`).join('')}</details>
@@ -148,7 +148,7 @@ function vEinst() {
     ? '<p>Läuft als installierte App ✓</p>'
     : installEvt ? '<button class="primary" data-install>Auf dem Startbildschirm installieren</button>'
     : '<p class="muted">In Chrome: Menü ⋮ → „App installieren“ bzw. „Zum Startbildschirm hinzufügen“. Den Link direkt in der Chrome-App öffnen, nicht in der Vorschau von WhatsApp oder Gmail.</p>'}</section>
-  <section class="card form"><h3>Offline</h3><button class="ghost" data-dl="*">Alle Audios offline laden (ca. 70 MB)</button> <small id="dl-*"></small></section>`;
+  <section class="card form"><h3>Offline</h3><button class="ghost" data-dl="*">Alle Audios offline laden (ca. 45 MB)</button> <div id="dl-*" class="dl"></div></section>`;
 }
 
 // ---------- Router ----------
@@ -184,17 +184,27 @@ async function download(gid) {
   const ids = gid === '*' ? Object.keys(D.cards) : byId[gid].blocks.flat();
   const urls = ids.flatMap(id => ['fr', 'de'].map(l => audioUrl(id, l, D.cards[id][l]))).concat([500, 1000, 1500, 2000, 2500, 3000].map(p => `audio/p/${p}.wav`));
   const cache = await caches.open('fra1-audio');
+  const total = urls.length;
   let done = 0, fail = 0;
+  const show = () => {
+    if (!out) return;
+    const p = Math.round((done / total) * 100);
+    out.innerHTML = `<span class="dl-txt">${done} / ${total} Dateien · ${p} %</span><div class="bar"><i style="width:${p}%"></i></div>`;
+  };
+  show();
   const work = async () => {
     while (urls.length) {
       const u = urls.pop();
       try { if (!(await cache.match(u))) { const r = await fetch(u); if (r.status === 200) await cache.put(u, r); else fail++; } }
       catch { fail++; }
-      if (++done % 20 === 0 && out) out.textContent = `${done} geladen …`;
+      if (++done % 10 === 0) show();
     }
   };
   await Promise.all(Array.from({ length: 6 }, work));
-  if (out) out.textContent = fail ? `Fertig, ${fail} fehlgeschlagen. Nochmal tippen zum Wiederholen.` : 'Offline verfügbar ✓';
+  show();
+  if (out) out.querySelector('.dl-txt').textContent = fail
+    ? `${total - fail} / ${total} geladen, ${fail} fehlgeschlagen. Nochmal tippen, um den Rest zu laden.`
+    : `Offline verfügbar ✓ (${total} Dateien)`;
 }
 
 // ---------- Ereignisse ----------
