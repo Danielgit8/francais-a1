@@ -1,5 +1,5 @@
 // Offline: App-Dateien zuerst vom Netz (Fallback Cache), Audios zuerst aus dem Cache.
-const V = 'fra1-v1';
+const V = 'fra1-v2';
 const SHELL = ['./', 'index.html', 'app.css', 'supabase.js', 'manifest.webmanifest', 'icon.svg',
   'js/app.js', 'js/store.js', 'js/srs.js', 'js/sync.js', 'js/player.js', 'js/modes.js', 'js/md.js',
   'content/data.json', 'content/grammatik.md'];
