@@ -7,7 +7,7 @@ Pas mal, mais je suis un peu fatigué. | Nicht schlecht, aber ich bin ein bissch
 Bonsoir, monsieur. | Guten Abend.
 Je vous présente Paul, mon collègue. | Ich stelle Ihnen Paul vor, meinen Kollegen.
 Je te présente Marie, ma sœur. | Ich stelle dir Marie vor, meine Schwester.
-Enchanté, je m'appelle Lucas. | Freut mich, ich heiße Lucas.
+Enchanté, je m'appelle Daniel. | Freut mich, ich heiße Daniel.
 On se tutoie ? | Wollen wir uns duzen?
 Au revoir et bonne journée ! | Auf Wiedersehen und schönen Tag!
 À demain ! | Bis morgen!
@@ -39,7 +39,7 @@ Bon rétablissement ! | Gute Besserung!
 Amuse-toi bien ! | Viel Spaß!
 Bienvenue chez nous ! | Willkommen bei uns!
 # ueber-mich | Über mich
-Je m'appelle Lucas. | Ich heiße Lucas.
+Je m'appelle Daniel. | Ich heiße Daniel.
 Comment vous appelez-vous ? | Wie heißen Sie?
 Tu t'appelles comment ? | Wie heißt du?
 Mon nom de famille, c'est Becker. | Mein Nachname ist Becker.
@@ -63,7 +63,7 @@ Quelle est votre adresse ? | Wie ist Ihre Adresse?
 J'habite seul. | Ich wohne allein.
 J'habite avec ma copine. | Ich wohne mit meiner Freundin zusammen.
 Mon numéro de téléphone, c'est le zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit. | Meine Telefonnummer ist 06 12 34 56 78.
-Mon adresse e-mail, c'est lucas point becker arobase gmail point com. | Meine E-Mail-Adresse ist lucas.becker@gmail.com.
+Mon adresse e-mail, c'est daniel point becker arobase gmail point com. | Meine E-Mail-Adresse ist daniel.becker@gmail.com.
 Je suis infirmier. | Ich bin Krankenpfleger.
 Je travaille dans un hôpital. | Ich arbeite in einem Krankenhaus.
 Qu'est-ce que vous faites dans la vie ? | Was machen Sie beruflich?
@@ -509,7 +509,7 @@ Je ne suis pas d'accord. | Ich bin nicht einverstanden.
 Dommage ! | Schade!
 Ça dépend. | Kommt darauf an.
 Allô ? | Hallo? (am Telefon)
-Allô, c'est Lucas. | Hallo, hier ist Lucas.
+Allô, c'est Daniel. | Hallo, hier ist Daniel.
 Je voudrais parler à madame Dupont, s'il vous plaît. | Ich möchte bitte mit Frau Dupont sprechen.
 C'est de la part de qui ? | Wer ist am Apparat?
 Ne quittez pas. | Bleiben Sie dran.
@@ -555,7 +555,7 @@ Il est médecin ? Oui, il est médecin. | Ist er Arzt? Ja, er ist Arzt.
 Vous êtes combien ? Nous sommes trois. | Wie viele sind Sie? Wir sind zu dritt.
 Ça coûte combien ? Douze euros. | Was kostet das? Zwölf Euro.
 # pruefung | Prüfung Sprechen
-Bonjour, je m'appelle Lucas Becker, j'ai vingt-cinq ans. | Guten Tag, ich heiße Lucas Becker, ich bin fünfundzwanzig.
+Bonjour, je m'appelle Daniel Becker, j'ai vingt-cinq ans. | Guten Tag, ich heiße Daniel Becker, ich bin fünfundzwanzig.
 Je suis allemand et j'habite à Munich. | Ich bin Deutscher und wohne in München.
 J'habite dans un petit appartement avec ma copine. | Ich wohne mit meiner Freundin in einer kleinen Wohnung.
 Je suis infirmier, je travaille dans un hôpital. | Ich bin Krankenpfleger, ich arbeite in einem Krankenhaus.

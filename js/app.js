@@ -99,8 +99,18 @@ function vGroup(id) {
     </section>`).join('');
 }
 
+function loadGrammar() {
+  return fetch('content/grammatik.md').then(r => r.text()).then(t => {
+    grammar = t; try { localStorage.setItem('fra1.grammar', t); } catch { /* voll */ }
+  });
+}
+
 async function vGrammatik() {
-  if (grammar === null) grammar = await (await fetch('content/grammatik.md')).text();
+  if (grammar === null) grammar = localStorage.getItem('fra1.grammar');
+  if (grammar === null) {
+    try { await loadGrammar(); }
+    catch { return '<p class="muted">Die Grammatik ist auf diesem Gerät noch nicht gespeichert. Öffne die App einmal mit Internet.</p>'; }
+  }
   const parts = grammar.split(/\n(?=## )/);
   setTimeout(() => {
     const inp = $('#gq'), box = $('#gbox');
@@ -133,6 +143,10 @@ function vEinst() {
        <form id="login"><input type="email" id="l-e" placeholder="E-Mail" autocomplete="email" required>
        <input type="password" id="l-p" placeholder="Passwort" autocomplete="current-password" required>
        <button class="primary">Anmelden</button><p id="l-m" class="err"></p></form>`}</section>
+  <section class="card form"><h3>App installieren</h3>${matchMedia('(display-mode: standalone)').matches
+    ? '<p>Läuft als installierte App ✓</p>'
+    : installEvt ? '<button class="primary" data-install>Auf dem Startbildschirm installieren</button>'
+    : '<p class="muted">In Chrome: Menü ⋮ → „App installieren“ bzw. „Zum Startbildschirm hinzufügen“. Den Link direkt in der Chrome-App öffnen, nicht in der Vorschau von WhatsApp oder Gmail.</p>'}</section>
   <section class="card form"><h3>Offline</h3><button class="ghost" data-dl="*">Alle Audios offline laden (ca. 70 MB)</button> <small id="dl-*"></small></section>`;
 }
 
@@ -190,7 +204,11 @@ document.addEventListener('click', e => {
   else if (t.dataset.dl) download(t.dataset.dl);
   else if (t.hasAttribute('data-sync')) sync.sync();
   else if (t.hasAttribute('data-logout')) sync.logout();
+  else if (t.hasAttribute('data-install') && installEvt) installEvt.prompt().then(() => { installEvt = null; route(); });
 });
+
+let installEvt = null;
+addEventListener('beforeinstallprompt', e => { e.preventDefault(); installEvt = e; if (location.hash === '#einst') route(); });
 
 document.addEventListener('change', e => {
   const k = e.target.dataset.set;
@@ -213,6 +231,7 @@ document.addEventListener('submit', async e => {
   D = await (await fetch('content/data.json')).json();
   for (const g of [...D.islands, ...D.vocab]) { byId[g.id] = g; g.blocks.flat().forEach(id => { groupOf[id] = g.title; }); }
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+  loadGrammar().catch(() => {});
   sync.onStatus(s => { $('#sync').textContent = s; });
   await sync.init(route);
   addEventListener('hashchange', route);
