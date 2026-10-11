@@ -22,7 +22,7 @@ Merci pour le cadeau, il est très joli. | Danke für das Geschenk, es ist sehr 
 De rien. | Gern geschehen.
 Je vous en prie. | Bitte sehr.
 Excusez-moi, monsieur. | Entschuldigen Sie.
-Pardon, je suis désolée. | Entschuldigung, es tut mir leid.
+Pardon, je suis désolé. | Entschuldigung, es tut mir leid.
 Désolé, je suis en retard. | Tut mir leid, ich bin zu spät.
 Ce n'est pas grave. | Das ist nicht schlimm.
 Pas de problème. | Kein Problem.
@@ -39,7 +39,7 @@ Bon rétablissement ! | Gute Besserung!
 Amuse-toi bien ! | Viel Spaß!
 Bienvenue chez nous ! | Willkommen bei uns!
 # ueber-mich | Über mich
-Je m'appelle Anna. | Ich heiße Anna.
+Je m'appelle Lucas. | Ich heiße Lucas.
 Comment vous appelez-vous ? | Wie heißen Sie?
 Tu t'appelles comment ? | Wie heißt du?
 Mon nom de famille, c'est Becker. | Mein Nachname ist Becker.
@@ -50,7 +50,6 @@ Quel âge avez-vous ? | Wie alt sind Sie?
 Tu as quel âge ? | Wie alt bist du?
 Je suis né le trois juin mille neuf cent quatre-vingt-dix-neuf. | Ich bin am dritten Juni 1999 geboren.
 Mon anniversaire, c'est le trois juin. | Mein Geburtstag ist am dritten Juni.
-Je suis allemande. | Ich bin Deutsche.
 Je suis allemand. | Ich bin Deutscher.
 Vous êtes de quelle nationalité ? | Welche Staatsangehörigkeit haben Sie?
 Je viens d'Allemagne. | Ich komme aus Deutschland.
@@ -61,11 +60,11 @@ Où habitez-vous ? | Wo wohnen Sie?
 Tu habites où ? | Wo wohnst du?
 J'habite douze, rue de la Paix, à Munich. | Ich wohne in der Rue de la Paix 12 in München.
 Quelle est votre adresse ? | Wie ist Ihre Adresse?
-J'habite seule. | Ich wohne allein.
-J'habite avec mon copain. | Ich wohne mit meinem Freund zusammen.
+J'habite seul. | Ich wohne allein.
+J'habite avec ma copine. | Ich wohne mit meiner Freundin zusammen.
 Mon numéro de téléphone, c'est le zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit. | Meine Telefonnummer ist 06 12 34 56 78.
-Mon adresse e-mail, c'est anna point becker arobase gmail point com. | Meine E-Mail-Adresse ist anna.becker@gmail.com.
-Je suis infirmière. | Ich bin Krankenschwester.
+Mon adresse e-mail, c'est lucas point becker arobase gmail point com. | Meine E-Mail-Adresse ist lucas.becker@gmail.com.
+Je suis infirmier. | Ich bin Krankenpfleger.
 Je travaille dans un hôpital. | Ich arbeite in einem Krankenhaus.
 Qu'est-ce que vous faites dans la vie ? | Was machen Sie beruflich?
 Je suis étudiant en informatique. | Ich studiere Informatik.
@@ -81,7 +80,7 @@ J'apprends le français pour mon travail. | Ich lerne Französisch für meine Ar
 J'apprends le français depuis six mois. | Ich lerne seit sechs Monaten Französisch.
 # familie | Familie & Personen
 J'ai un frère et deux sœurs. | Ich habe einen Bruder und zwei Schwestern.
-Je suis fille unique. | Ich bin Einzelkind.
+Je suis fils unique. | Ich bin Einzelkind.
 Nous sommes quatre dans ma famille. | Wir sind zu viert in meiner Familie.
 Voici mon père. Il s'appelle Thomas. | Das ist mein Vater. Er heißt Thomas.
 Voici ma mère. Elle s'appelle Marie. | Das ist meine Mutter. Sie heißt Marie.
@@ -315,7 +314,7 @@ Et avec ça ? | Sonst noch etwas?
 Je cherche un pull pour mon frère. | Ich suche einen Pullover für meinen Bruder.
 Vous avez ce pull en bleu ? | Haben Sie diesen Pullover in Blau?
 Vous l'avez en taille M ? | Haben Sie ihn in Größe M?
-Je fais du trente-huit. | Ich trage Größe achtunddreißig.
+Je fais du L. | Ich trage Größe L.
 Je peux l'essayer ? | Kann ich ihn anprobieren?
 Où sont les cabines ? | Wo sind die Umkleidekabinen?
 C'est trop petit. | Das ist zu klein.
@@ -352,7 +351,7 @@ Un jus d'orange pour moi. | Einen Orangensaft für mich.
 Qu'est-ce que c'est, le croque-monsieur ? | Was ist ein Croque-Monsieur?
 Qu'est-ce que vous me conseillez ? | Was empfehlen Sie mir?
 Le plat du jour, c'est quoi ? | Was ist das Tagesgericht?
-Je suis végétarienne. | Ich bin Vegetarierin.
+Je suis végétarien. | Ich bin Vegetarier.
 Je ne mange pas de viande. | Ich esse kein Fleisch.
 Je suis allergique aux noix. | Ich bin allergisch gegen Nüsse.
 C'est très bon ! | Das ist sehr lecker!
@@ -408,7 +407,7 @@ J'ai soif. | Ich habe Durst.
 J'ai froid. | Mir ist kalt.
 J'ai chaud. | Mir ist warm.
 J'ai sommeil. | Ich bin müde.
-Je suis fatiguée. | Ich bin müde.
+Je suis fatigué. | Ich bin müde.
 Je suis malade. | Ich bin krank.
 Je me sens mal. | Mir geht es schlecht.
 Ça ne va pas. | Es geht mir nicht gut.
@@ -458,7 +457,7 @@ Au printemps, il fait doux. | Im Frühling ist es mild.
 Hier, j'ai regardé un film. | Gestern habe ich einen Film gesehen.
 Hier soir, j'ai mangé au restaurant. | Gestern Abend habe ich im Restaurant gegessen.
 Samedi, j'ai fait les courses. | Am Samstag habe ich eingekauft.
-Le week-end dernier, je suis allée à la mer. | Letztes Wochenende bin ich ans Meer gefahren.
+Le week-end dernier, je suis allé à la mer. | Letztes Wochenende bin ich ans Meer gefahren.
 Je suis allé au cinéma avec mes amis. | Ich bin mit meinen Freunden ins Kino gegangen.
 J'ai visité le Louvre. | Ich habe den Louvre besichtigt.
 J'ai vu un concert. | Ich habe ein Konzert gesehen.
@@ -510,7 +509,7 @@ Je ne suis pas d'accord. | Ich bin nicht einverstanden.
 Dommage ! | Schade!
 Ça dépend. | Kommt darauf an.
 Allô ? | Hallo? (am Telefon)
-Allô, c'est Anna. | Hallo, hier ist Anna.
+Allô, c'est Lucas. | Hallo, hier ist Lucas.
 Je voudrais parler à madame Dupont, s'il vous plaît. | Ich möchte bitte mit Frau Dupont sprechen.
 C'est de la part de qui ? | Wer ist am Apparat?
 Ne quittez pas. | Bleiben Sie dran.
@@ -528,7 +527,7 @@ Tu parles anglais ? Oui, un peu. | Sprichst du Englisch? Ja, ein bisschen.
 Où est mon téléphone ? Il est sur la table. | Wo ist mein Handy? Es liegt auf dem Tisch.
 Où vas-tu ? Je vais à la boulangerie. | Wohin gehst du? Ich gehe zur Bäckerei.
 Quand pars-tu ? Je pars demain. | Wann fährst du? Ich fahre morgen.
-Comment vas-tu au travail ? En vélo. | Wie kommst du zur Arbeit? Mit dem Fahrrad.
+Comment vas-tu au travail ? À vélo. | Wie kommst du zur Arbeit? Mit dem Fahrrad.
 Combien de frères as-tu ? J'ai deux frères. | Wie viele Brüder hast du? Ich habe zwei Brüder.
 Pourquoi tu apprends le français ? Parce que j'aime voyager. | Warum lernst du Französisch? Weil ich gern reise.
 Quel jour sommes-nous ? Nous sommes mercredi. | Welcher Tag ist heute? Heute ist Mittwoch.
@@ -556,10 +555,10 @@ Il est médecin ? Oui, il est médecin. | Ist er Arzt? Ja, er ist Arzt.
 Vous êtes combien ? Nous sommes trois. | Wie viele sind Sie? Wir sind zu dritt.
 Ça coûte combien ? Douze euros. | Was kostet das? Zwölf Euro.
 # pruefung | Prüfung Sprechen
-Bonjour, je m'appelle Anna Becker, j'ai vingt-cinq ans. | Guten Tag, ich heiße Anna Becker, ich bin fünfundzwanzig.
-Je suis allemande et j'habite à Munich. | Ich bin Deutsche und wohne in München.
-J'habite dans un petit appartement avec mon copain. | Ich wohne mit meinem Freund in einer kleinen Wohnung.
-Je suis infirmière, je travaille dans un hôpital. | Ich bin Krankenschwester, ich arbeite in einem Krankenhaus.
+Bonjour, je m'appelle Lucas Becker, j'ai vingt-cinq ans. | Guten Tag, ich heiße Lucas Becker, ich bin fünfundzwanzig.
+Je suis allemand et j'habite à Munich. | Ich bin Deutscher und wohne in München.
+J'habite dans un petit appartement avec ma copine. | Ich wohne mit meiner Freundin in einer kleinen Wohnung.
+Je suis infirmier, je travaille dans un hôpital. | Ich bin Krankenpfleger, ich arbeite in einem Krankenhaus.
 J'adore la France, c'est pour ça que j'apprends le français. | Ich liebe Frankreich, deshalb lerne ich Französisch.
 Le week-end, j'aime faire du vélo et voir mes amis. | Am Wochenende fahre ich gern Rad und treffe meine Freunde.
 Quelle est la date de votre anniversaire ? | Wann haben Sie Geburtstag?

@@ -45,6 +45,9 @@ async def tts(sem, text, voice, path):
 async def main():
     make_pauses()
     cards = json.loads((APP / "content" / "data.json").read_text(encoding="utf-8"))["cards"]
+    for f in list(AUDIO.glob("fr/*.mp3")) + list(AUDIO.glob("de/*.mp3")):
+        if f.stem not in cards:  # Karte gelöscht oder Text geändert
+            f.unlink()
     jobs = []
     for cid, c in cards.items():
         for lang in ("fr", "de"):
