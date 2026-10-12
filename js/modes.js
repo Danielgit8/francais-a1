@@ -60,9 +60,9 @@ export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
     show();
   }
 
-  // c: 10er-Runden. Unter 5 Sternen kommt der Satz in der Runde wieder. Für die Planung zählt die erste Bewertung.
+  // c: 10er-Runden. Unter 4 Sternen kommt der Satz in der Runde wieder (höchstens 3-mal). Für die Planung zählt die erste Bewertung.
   function recall() {
-    const rest = [...ids], first = {};
+    const rest = [...ids], first = {}, tries = {};
     let queue = [], round = 0;
     const nextRound = () => { queue = rest.splice(0, 10); round++; queue.length ? ask() : done(); };
     const ask = () => {
@@ -87,7 +87,8 @@ export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
       else if (t.dataset.r) {
         const n = +t.dataset.r, id = queue.shift();
         if (!(id in first)) { first[id] = n; rateTrack(id, 'sp', n); }
-        if (n < 5) queue.push(id);
+        tries[id] = (tries[id] || 0) + 1;
+        if (n < 4 && tries[id] < 3) queue.push(id);
         queue.length ? ask() : nextRound();
       }
     };

@@ -39,7 +39,9 @@ Das ist die eigentliche Lernübung. Du siehst den deutschen Satz und sagst ihn *
 | 4★ | richtig, kleine Unsicherheit | in ein paar Tagen |
 | 5★ | fehlerfrei und ohne Zögern | noch später |
 
-Sei ehrlich mit dir: Nur wer ehrlich bewertet, bekommt die richtigen Wiederholungen. Unter 5★ kommt die Karte in derselben Runde gleich noch einmal, bis sie sitzt. Für den Plan zählt aber nur deine **erste** Bewertung.
+Sei ehrlich mit dir: Nur wer ehrlich bewertet, bekommt die richtigen Wiederholungen. Bei 1–3★ kommt die Karte in derselben Runde noch einmal, aber höchstens dreimal. Danach geht es weiter, und morgen kommt sie wieder. Für den Plan zählt nur deine **erste** Bewertung.
+
+Kennst du einen Satz beim Abrufen gar nicht? Das ist normal, gerade in den ersten Tagen. Tipp auf Aufdecken, hör gut zu, sprich ihn laut nach und gib dir ehrlich 1★. Durch die Wiederholungen sitzt er nach ein paar Tagen.
 
 ### Audio-Abrufen (nebenbei)
 Du hörst den Satz auf Deutsch. In der Pause sagst du ihn auf Französisch, danach hörst du die Lösung. Das läuft endlos und auch bei gesperrtem Bildschirm, gut für unterwegs. Diese Übung zählt nicht zu den Minuten.
