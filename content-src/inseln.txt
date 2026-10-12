@@ -1,10 +1,10 @@
 # kontakt | Begrüßen, Danken & Wünschen
-Bonjour madame, comment allez-vous ? | Guten Tag, wie geht es Ihnen?
+Bonjour madame, comment allez-vous ? | Guten Tag, Madame, wie geht es Ihnen?
 Très bien, merci. Et vous ? | Sehr gut, danke. Und Ihnen?
 Salut ! Ça va ? | Hallo! Wie geht's?
 Ça va bien, merci. Et toi ? | Gut, danke. Und dir?
 Pas mal, mais je suis un peu fatigué. | Nicht schlecht, aber ich bin ein bisschen müde.
-Bonsoir, monsieur. | Guten Abend.
+Bonsoir, monsieur. | Guten Abend, Monsieur.
 Je vous présente Paul, mon collègue. | Ich stelle Ihnen Paul vor, meinen Kollegen.
 Je te présente Marie, ma sœur. | Ich stelle dir Marie vor, meine Schwester.
 Enchanté, je m'appelle Daniel. | Freut mich, ich heiße Daniel.
@@ -21,7 +21,7 @@ Merci pour votre aide. | Danke für Ihre Hilfe.
 Merci pour le cadeau, il est très joli. | Danke für das Geschenk, es ist sehr schön.
 De rien. | Gern geschehen.
 Je vous en prie. | Bitte sehr.
-Excusez-moi, monsieur. | Entschuldigen Sie.
+Excusez-moi, monsieur. | Entschuldigen Sie, Monsieur.
 Pardon, je suis désolé. | Entschuldigung, es tut mir leid.
 Désolé, je suis en retard. | Tut mir leid, ich komme zu spät.
 Ce n'est pas grave. | Das ist nicht schlimm.
@@ -67,7 +67,7 @@ Mon adresse e-mail, c'est daniel point becker arobase gmail point com. | Meine E
 Je suis infirmier. | Ich bin Krankenpfleger.
 Je travaille dans un hôpital. | Ich arbeite in einem Krankenhaus.
 Qu'est-ce que vous faites dans la vie ? | Was machen Sie beruflich?
-Je suis étudiant en informatique. | Ich studiere Informatik.
+Je suis étudiant en informatique. | Ich bin Informatikstudent.
 Je travaille comme vendeur dans un magasin. | Ich arbeite als Verkäufer in einem Geschäft.
 Je suis à la retraite. | Ich bin in Rente.
 Je suis célibataire. | Ich bin ledig.
@@ -116,18 +116,18 @@ Qui est-ce ? C'est mon voisin. | Wer ist das? Das ist mein Nachbar.
 Ma collègue est jeune et très sérieuse. | Meine Kollegin ist jung und sehr gewissenhaft.
 Mon chien s'appelle Max. | Mein Hund heißt Max.
 # vorlieben | Vorlieben & Hobbys
-J'adore le cinéma. | Ich liebe Kino.
+J'adore le cinéma. | Ich liebe das Kino.
 J'aime beaucoup la musique. | Ich mag Musik sehr.
 J'aime bien lire. | Ich lese gern.
 Je n'aime pas le football. | Ich mag Fußball nicht.
 Je déteste le froid. | Ich hasse die Kälte.
-Je préfère le thé. | Ich trinke lieber Tee.
+Je préfère le thé. | Ich mag lieber Tee.
 Je préfère rester à la maison. | Ich bleibe lieber zu Hause.
 Qu'est-ce que vous faites pendant votre temps libre ? | Was machen Sie in Ihrer Freizeit?
 Quels sont tes loisirs ? | Was sind deine Hobbys?
 Je fais du sport trois fois par semaine. | Ich mache dreimal pro Woche Sport.
 Je fais du vélo le week-end. | Am Wochenende fahre ich Fahrrad.
-Je fais de la natation. | Ich schwimme.
+Je fais de la natation. | Ich gehe schwimmen.
 Je fais du yoga le matin. | Ich mache morgens Yoga.
 Je joue au tennis le samedi. | Samstags spiele ich Tennis.
 Je joue aux cartes avec mes amis. | Ich spiele Karten mit meinen Freunden.
@@ -169,7 +169,7 @@ Après le travail, je fais les courses. | Nach der Arbeit kaufe ich ein.
 Je rentre à la maison vers six heures. | Ich komme gegen sechs Uhr nach Hause.
 Le soir, je fais la cuisine. | Abends koche ich.
 Après le dîner, je regarde la télé. | Nach dem Abendessen sehe ich fern.
-Je lis un livre avant de dormir. | Ich lese ein Buch vor dem Schlafen.
+Je lis un livre avant de dormir. | Vor dem Schlafengehen lese ich ein Buch.
 Je me couche à onze heures. | Ich gehe um elf Uhr ins Bett.
 D'abord, je me lève. | Zuerst stehe ich auf.
 Ensuite, je vais au bureau. | Dann gehe ich ins Büro.
@@ -291,7 +291,7 @@ La boulangerie est à droite, après le parc. | Die Bäckerei ist rechts, nach d
 L'hôtel est près de la gare. | Das Hotel ist in der Nähe des Bahnhofs.
 Le cinéma est loin du centre. | Das Kino ist weit vom Zentrum entfernt.
 Vous êtes ici, sur le plan. | Sie sind hier auf dem Plan.
-Merci beaucoup, madame ! | Vielen Dank!
+Merci beaucoup, madame ! | Vielen Dank, Madame!
 # einkaufen | Einkaufen
 Bonjour, je voudrais une baguette, s'il vous plaît. | Guten Tag, ich möchte bitte ein Baguette.
 Je voudrais un kilo de pommes. | Ich möchte ein Kilo Äpfel.
@@ -394,11 +394,11 @@ La douche ne marche pas. | Die Dusche funktioniert nicht.
 Voici mon passeport. | Hier ist mein Reisepass.
 Je suis en vacances à Nice. | Ich mache Urlaub in Nizza.
 Je reste une semaine. | Ich bleibe eine Woche.
-Je suis à l'hôtel près de la plage. | Ich bin im Hotel in der Nähe des Strandes.
+Je suis à l'hôtel près de la plage. | Ich bin in einem Hotel in der Nähe des Strandes.
 Je visite la ville et les musées. | Ich besichtige die Stadt und die Museen.
 Cet été, je vais en Espagne. | Diesen Sommer fahre ich nach Spanien.
 Je vais au Portugal en avion. | Ich fliege nach Portugal.
-Je voudrais aller aux États-Unis. | Ich möchte in die USA reisen.
+Je voudrais aller aux États-Unis. | Ich möchte in die USA.
 Ma valise est trop lourde. | Mein Koffer ist zu schwer.
 Le vol est annulé. | Der Flug ist gestrichen.
 # gesundheit | Befinden & Gesundheit
@@ -460,7 +460,7 @@ Samedi, j'ai fait les courses. | Am Samstag habe ich eingekauft.
 Le week-end dernier, je suis allé à la mer. | Letztes Wochenende bin ich ans Meer gefahren.
 Je suis allé au cinéma avec mes amis. | Ich bin mit meinen Freunden ins Kino gegangen.
 J'ai visité le Louvre. | Ich habe den Louvre besichtigt.
-J'ai vu un concert. | Ich war auf einem Konzert.
+J'ai vu un concert. | Ich habe ein Konzert gesehen.
 J'ai pris le train pour Lyon. | Ich habe den Zug nach Lyon genommen.
 Nous sommes rentrés tard. | Wir sind spät nach Hause gekommen.
 Elle est née en mille neuf cent quatre-vingt-dix. | Sie ist 1990 geboren.
@@ -555,7 +555,7 @@ Il est médecin ? Oui, il est médecin. | Ist er Arzt? Ja, er ist Arzt.
 Vous êtes combien ? Nous sommes trois. | Wie viele sind Sie? Wir sind zu dritt.
 Ça coûte combien ? Douze euros. | Was kostet das? Zwölf Euro.
 # pruefung | Prüfung Sprechen
-Bonjour, je m'appelle Daniel Becker, j'ai vingt-cinq ans. | Guten Tag, ich heiße Daniel Becker, ich bin fünfundzwanzig.
+Bonjour, je m'appelle Daniel Becker, j'ai vingt-cinq ans. | Guten Tag, ich heiße Daniel Becker, ich bin fünfundzwanzig Jahre alt.
 Je suis allemand et j'habite à Munich. | Ich bin Deutscher und wohne in München.
 J'habite dans un petit appartement avec ma copine. | Ich wohne mit meiner Freundin in einer kleinen Wohnung.
 Je suis infirmier, je travaille dans un hôpital. | Ich bin Krankenpfleger, ich arbeite in einem Krankenhaus.
@@ -579,7 +579,7 @@ Quel pays voulez-vous visiter ? | Welches Land möchten Sie besuchen?
 Quelle saison préférez-vous ? | Welche Jahreszeit mögen Sie am liebsten?
 Vous regardez la télévision ? | Sehen Sie fern?
 Est-ce que vous aimez faire la fête ? | Feiern Sie gern?
-Bonjour monsieur, je voudrais acheter un cadeau pour mon frère. | Guten Tag, ich möchte ein Geschenk für meinen Bruder kaufen.
+Bonjour monsieur, je voudrais acheter un cadeau pour mon frère. | Guten Tag, Monsieur, ich möchte ein Geschenk für meinen Bruder kaufen.
 Vous avez des tee-shirts ? | Haben Sie T-Shirts?
 C'est combien, ce tee-shirt ? | Was kostet dieses T-Shirt?
 Vous l'avez en bleu ? | Haben Sie es in Blau?
