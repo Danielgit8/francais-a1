@@ -5,7 +5,7 @@ import { Player, au, pz } from './player.js';
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-export function runSession(el, { mode, ids, title, cards, onClose }) {
+export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
   const st = store.settings(), P = new Player();
   let i = 0, dead = false;
   el.innerHTML = `<div class="s-head"><button class="x" data-x aria-label="Schließen">✕</button>
@@ -21,7 +21,7 @@ export function runSession(el, { mode, ids, title, cards, onClose }) {
   body.addEventListener('change', e => { const n = e.target.dataset.note; if (n) store.put(n, { note: e.target.value.trim() }); });
 
   const done = () => {
-    P.stop();
+    P.stop(); if (onDone) onDone();
     body.innerHTML = `<div class="done">Geschafft!</div><button class="primary" data-close>Schließen</button>`;
     body.onclick = e => { if (e.target.closest('[data-close]')) onClose(); };
   };

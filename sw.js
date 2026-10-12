@@ -1,7 +1,7 @@
 ﻿// Offline: App-Dateien zuerst vom Netz (Fallback Cache), Audios zuerst aus dem Cache.
-const V = 'fra1-v6';
+const V = 'fra1-v7';
 const SHELL = ['./', 'index.html', 'app.css', 'supabase.js', 'manifest.webmanifest', 'icon.svg',
-  'js/app.js', 'js/store.js', 'js/srs.js', 'js/sync.js', 'js/player.js', 'js/modes.js', 'js/md.js',
+  'js/app.js', 'js/guide.js','js/store.js', 'js/srs.js', 'js/sync.js', 'js/player.js', 'js/modes.js', 'js/md.js',
   'content/data.json', 'content/grammatik.md'];
 
 self.addEventListener('install', e => {

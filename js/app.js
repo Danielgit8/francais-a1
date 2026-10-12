@@ -4,6 +4,7 @@ import * as sync from './sync.js';
 import { runSession } from './modes.js';
 import { md } from './md.js';
 import { audioUrl } from './player.js';
+import { GUIDE } from './guide.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -70,11 +71,49 @@ function vHeute() {
       <div class="row"><span>Verstehen: <b>${un}</b></span><span>Sprechen: <b>${sp}</b></span><span>Gesehen: <b>${seenN(all)}</b></span></div>
     </section>
     ${rest ? '<section class="card tip">Heute ist Wiederholungstag: keine neuen Sätze.</section>' : ''}
+    ${seenN(all) ? '' : '<a class="card tip" href="#anleitung"><b>Neu hier?</b> Lies zuerst die kurze Anleitung (3 Minuten) ›</a>'}
+    ${plan(due, ns, nv)}
+    <details class="free"><summary>Freies Üben: Übung selbst wählen</summary>
     <section class="card"><h2>Fällige Wiederholung <small>${due.length}</small></h2>${actions(due.slice(0, 200), 'Wiederholung', 'cde')}</section>
     <section class="card"><h2>Neue Sätze <small>${ns.length}</small></h2>${from ? `<p class="muted">${esc(from)}</p>` : ''}${actions(ns, 'Neue Sätze')}</section>
-    <section class="card"><h2>Neue Wörter <small>${nv.length}</small></h2>${actions(nv, 'Neue Wörter', 'acde')}</section>
-    <section class="card tip"><b>Ablauf:</b> 1. Kennenlernen → 2. Nachsprechen → 3. Abrufen (erst fällige, dann neue).
-      Audio-Abrufen und Hintergrund zusätzlich nebenbei, zählen nicht zu den Minuten.</section>`;
+    <section class="card"><h2>Neue Wörter <small>${nv.length}</small></h2>${actions(nv, 'Neue Wörter', 'acde')}</section></details>`;
+}
+
+// Fester Tagesplan: ein Knopf „Weiter“, erledigte Schritte bekommen einen Haken (pro Gerät und Tag).
+function planDone() {
+  try { const p = JSON.parse(localStorage.getItem('fra1.plan') || '{}'); return p.d === srs.dayKey() ? p.done : []; } catch { return []; }
+}
+function markPlan(key) {
+  const done = planDone();
+  if (!done.includes(key)) done.push(key);
+  try { localStorage.setItem('fra1.plan', JSON.stringify({ d: srs.dayKey(), done })); } catch { /* egal */ }
+}
+function plan(due, ns, nv) {
+  const done = planDone();
+  const steps = [
+    ['rep', 'c', due.slice(0, 200), 'Wiederholen', 'Wiederholung'],
+    ['sa', 'a', ns, 'Neue Sätze · Kennenlernen', 'Neue Sätze'],
+    ['sb', 'b', ns, 'Neue Sätze · Nachsprechen', 'Neue Sätze'],
+    ['sc', 'c', ns, 'Neue Sätze · Abrufen', 'Neue Sätze'],
+    ['va', 'a', nv, 'Neue Wörter · Kennenlernen', 'Neue Wörter'],
+    ['vc', 'c', nv, 'Neue Wörter · Abrufen', 'Neue Wörter'],
+  ].filter(s => s[2].length || done.includes(s[0])).map(([key, m, ids, label, title]) => {
+    stash.push({ ids, title });
+    return { key, m, k: stash.length - 1, label, n: ids.length, ok: done.includes(key) };
+  });
+  const next = steps.find(s => !s.ok);
+  const btn = (s, cls, txt) => `<button class="${cls}" data-go="${s.m}" data-k="${s.k}" data-plan="${s.key}">${txt}</button>`;
+  const extra = [...new Set([...due.slice(0, 100), ...ns, ...nv])];
+  return `<section class="card"><div class="row"><h2>Dein Plan für heute</h2><a href="#anleitung" class="back">Anleitung</a></div>
+    ${next ? btn(next, 'primary', `▶ Weiter: ${next.label} (${next.n})`)
+      : `<p class="done-day">Tagesplan geschafft ✓</p><p class="muted">Wenn du magst, hör nebenbei noch Audio-Abrufen oder Hintergrund.</p>${actions(extra, 'Heute', 'de')}`}
+    <div class="steps">${steps.map((s, i) => btn(s, `step${s.ok ? ' ok' : ''}${s === next ? ' now' : ''}`,
+      `<i>${s.ok ? '✓' : i + 1}</i><span>${s.label}</span><small>${s.n || ''}</small>`)).join('')}</div>
+    ${next ? `<details><summary>Nebenbei (freiwillig): Audio-Abrufen · Hintergrund</summary>${actions(extra, 'Heute', 'de')}</details>` : ''}</section>`;
+}
+
+function vAnleitung() {
+  return `<h2 class="pt">Anleitung</h2><div class="md">${md(GUIDE)}</div><p><a href="#heute" class="back">‹ Zu Heute</a></p>`;
 }
 
 function vGroups(kind) {
@@ -128,7 +167,8 @@ function vEinst() {
   const s = store.settings(), u = sync.currentUser();
   const num = (k, v, lab, step = 1) => `<label>${lab}<input type="number" step="${step}" min="0" data-set="${k}" value="${v}"></label>`;
   const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
-  return `<h2 class="pt">Einstellungen</h2>
+  return `<a class="card tip" href="#anleitung"><b>Anleitung</b>: So benutzt du die App ›</a>
+  <h2 class="pt">Einstellungen</h2>
   <section class="card form"><h3>Tagesziel</h3>
     ${num('newS', s.newS, 'Neue Sätze pro Tag')}${num('newV', s.newV, 'Neue Wörter pro Tag')}${num('goal', s.goal, 'Minuten aktiv pro Tag')}
     <label>Wiederholungstag (keine neuen)<select data-set="restDay"><option value="-1">keiner</option>
@@ -156,18 +196,19 @@ async function route() {
   if (session) return;
   stash = [];
   const h = location.hash.slice(1) || 'heute';
-  const tab = h.startsWith('g/') ? ((byId[h.slice(2)] || {}).kind === 'v' ? 'vokabeln' : 'inseln') : h;
+  const tab = h.startsWith('g/') ? ((byId[h.slice(2)] || {}).kind === 'v' ? 'vokabeln' : 'inseln') : h === 'anleitung' ? 'einst' : h;
   document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === `#${tab}`));
   view.innerHTML = h === 'inseln' ? vGroups('s') : h === 'vokabeln' ? vGroups('v') : h === 'grammatik' ? await vGrammatik()
-    : h === 'einst' ? vEinst() : h.startsWith('g/') ? vGroup(h.slice(2)) : vHeute();
+    : h === 'einst' ? vEinst() : h === 'anleitung' ? vAnleitung() : h.startsWith('g/') ? vGroup(h.slice(2)) : vHeute();
 }
 
 // ---------- Übungssitzung ----------
 let minuteTimer;
-function startSession(mode, ids, title) {
+function startSession(mode, ids, title, planKey) {
   sessionEl.hidden = false; document.body.classList.add('in-session');
   history.pushState({ s: 1 }, '');
-  session = runSession(sessionEl, { mode, ids, title, cards: D.cards, onClose: () => history.back() });
+  session = runSession(sessionEl, { mode, ids, title, cards: D.cards, onClose: () => history.back(),
+    onDone: () => { if (planKey) markPlan(planKey); } });
   if ('abc'.includes(mode)) minuteTimer = setInterval(() => { if (document.visibilityState === 'visible') store.addMinutes(0.25); }, 15000);
 }
 function endSession() {
@@ -211,7 +252,7 @@ async function download(gid) {
 document.addEventListener('click', e => {
   const t = e.target.closest('button,[data-go]');
   if (!t) return;
-  if (t.dataset.go) { const { ids, title } = stash[+t.dataset.k]; startSession(t.dataset.go, ids, `${title} · ${MODES[t.dataset.go]}`); }
+  if (t.dataset.go) { const { ids, title } = stash[+t.dataset.k]; startSession(t.dataset.go, ids, `${title} · ${MODES[t.dataset.go]}`, t.dataset.plan); }
   else if (t.dataset.dl) download(t.dataset.dl);
   else if (t.hasAttribute('data-sync')) sync.sync();
   else if (t.hasAttribute('data-logout')) sync.logout();
@@ -245,6 +286,6 @@ document.addEventListener('submit', async e => {
   loadGrammar().catch(() => {});
   sync.onStatus(s => { $('#sync').textContent = s; });
   await sync.init(route);
-  addEventListener('hashchange', route);
+  addEventListener('hashchange', () => route().then(() => scrollTo(0, 0)));
   route();
 })();
