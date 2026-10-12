@@ -70,7 +70,9 @@ export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
       const k = c(queue[0]); markSeen(queue[0]);
       sub.textContent = `Runde ${round} · ${queue.length} offen · danach noch ${rest.length}`;
       body.innerHTML = `<div class="big de">${esc(k.de)}</div>
-        <p class="muted">Laut auf Französisch sagen, dann aufdecken.</p>
+        <p class="muted">Laut auf Französisch sagen, dann aufdecken. Hängst du fest? Nimm eine Hilfe.</p>
+        <div class="big fr hint" id="hint"></div>
+        <div class="acts"><button data-hint>💡 Anfangsbuchstaben</button><button data-listen>🔊 Anhören</button></div>
         <button class="primary" data-show>Aufdecken</button>`;
     };
     const reveal = () => {
@@ -83,6 +85,8 @@ export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
     body.onclick = e => {
       const t = e.target;
       if (t.closest('[data-show]')) reveal();
+      else if (t.closest('[data-hint]')) body.querySelector('#hint').textContent = c(queue[0]).fr.replace(/\p{L}+/gu, w => w[0] + '…');
+      else if (t.closest('[data-listen]')) P.play([au(queue[0], 'fr', c(queue[0]).fr)]);
       else if (t.closest('[data-play]')) P.play([au(queue[0], 'fr', c(queue[0]).fr)]);
       else if (t.dataset.r) {
         const n = +t.dataset.r, id = queue.shift();

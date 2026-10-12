@@ -13,7 +13,7 @@ Die App hat für jeden Tag einen festen Plan, den du nur abarbeitest. Du musst n
 6. **Neue Wörter · Abrufen**
 7. **Nebenbei (freiwillig)**: Audio-Abrufen oder Hintergrund beim Spazierengehen, Kochen oder Autofahren.
 
-Bei 30 neuen Sätzen und 30 neuen Wörtern dauert ein Tag etwa 45–60 Minuten. Das ist dir zu viel? Dann stell unter **Mehr** weniger neue Sätze und Wörter ein, zum Beispiel jeweils 10.
+Mit 10 neuen Sätzen und 10 neuen Wörtern dauert ein Tag etwa 20–30 Minuten. Das ist der Standard. Wenn es dir leichtfällt, kannst du unter **Mehr** auf 15 oder 20 erhöhen. Wenn die Wiederholungen zu schwer werden, gehst du wieder runter.
 
 ## Wenn du keine Lust hast
 - **Nur 2 Minuten:** Tipp auf **▶ Weiter** und mach ein einziges Kärtchen. Meistens machst du dann von allein weiter.
@@ -40,6 +40,8 @@ Das ist die eigentliche Lernübung. Du siehst den deutschen Satz und sagst ihn *
 | 5★ | fehlerfrei und ohne Zögern | noch später |
 
 Sei ehrlich mit dir: Nur wer ehrlich bewertet, bekommt die richtigen Wiederholungen. Bei 1–3★ kommt die Karte in derselben Runde noch einmal, aber höchstens dreimal. Danach geht es weiter, und morgen kommt sie wieder. Für den Plan zählt nur deine **erste** Bewertung.
+
+Hängst du fest, gibt es zwei Hilfen: **💡 Anfangsbuchstaben** zeigt den Anfang jedes Wortes, **🔊 Anhören** spielt den Satz vor. Mit Hilfe gibst du dir höchstens 3★.
 
 Kennst du einen Satz beim Abrufen gar nicht? Das ist normal, gerade in den ersten Tagen. Tipp auf Aufdecken, hör gut zu, sprich ihn laut nach und gib dir ehrlich 1★. Durch die Wiederholungen sitzt er nach ein paar Tagen.
 

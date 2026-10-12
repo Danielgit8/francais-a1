@@ -3,7 +3,7 @@ import { dayKey } from './srs.js';
 
 const K = 'fra1';
 const DEF = {
-  newS: 30, newV: 30, goal: 60, restDay: -1,
+  newS: 10, newV: 10, goal: 30, restDay: -1,
   a: { reps: 2, pause: 1500, rate: 1 },
   b: { reps: 2, pause: 2000, rate: 1, trans: false },
   d: { pause: 2000 },
