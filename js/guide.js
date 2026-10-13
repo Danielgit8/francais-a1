@@ -51,6 +51,14 @@ Du hörst den Satz auf Deutsch. In der Pause sagst du ihn auf Französisch, dana
 ### Hintergrund (nebenbei)
 Hier läuft nur Französisch, ohne Übersetzung. So gewöhnt sich dein Ohr an Klang und Tempo. Du musst dabei nicht aufpassen, die Sätze sollen einfach laufen. Das zählt nicht zu den Minuten.
 
+## Zu schwer? Zurücksetzen
+Wenn du bei den Wiederholungen kaum etwas verstehst, ist es oft besser, von vorn anzufangen, als dich durchzuquälen. Du kannst auf drei Arten zurücksetzen:
+- **Einzelne Karte:** Beim Abrufen nach dem Aufdecken auf **↺ Kenne ich gar nicht** tippen.
+- **Alle fälligen:** Auf **Heute** unter „Wiederholungen zu schwer?“.
+- **Insel, Block oder alles:** Auf der jeweiligen Inselseite oder unter **Mehr → Lernstand**.
+
+Zurückgesetzte Karten kommen wieder als **neu**, mit Kennenlernen und Nachsprechen. Pro Tag kommen nur so viele, wie du eingestellt hast.
+
 ## Die Reiter unten
 - **Heute**: Tagesplan, Fortschritt und freies Üben. Hier fängst du immer an.
 - **Inseln**: alle Sätze nach Themen (Begrüßung, Familie, Einkaufen …). Brauchst du nur, wenn du gezielt ein Thema üben willst, etwa vor einem Gespräch.

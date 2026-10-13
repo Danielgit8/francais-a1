@@ -25,6 +25,19 @@ function actions(ids, title, modes = 'abcde') {
   return `<div class="acts">${[...modes].map(m => `<button data-go="${m}" data-k="${k}" class="m-${m}">${MODES[m]}</button>`).join('')}</div>`;
 }
 
+// Zurücksetzen: Karten gelten wieder als neu und kommen über „Neue Sätze/Wörter“ erneut dran.
+function resetBtn(ids, label) {
+  stash.push({ ids });
+  return `<button class="ghost" data-reset="${stash.length - 1}">↺ ${label}</button>`;
+}
+function resetCards(ids) {
+  ids = ids.filter(id => st(id).seen);
+  if (!ids.length) return alert('Hier gibt es nichts zurückzusetzen.');
+  if (!confirm(`${ids.length} Karten zurücksetzen?\n\nSie gelten dann wieder als neu und kommen nach und nach über „Neue Sätze“ bzw. „Neue Wörter“ wieder dran.`)) return;
+  ids.forEach(id => store.put(id, { seen: 0, sp: null, un: null }));
+  sync.sync(); route();
+}
+
 function todayNew(kind) {
   const s = store.settings(), t0 = srs.dayStart();
   const ids = (kind === 's' ? D.islands : D.vocab).flatMap(g => g.blocks.flat());
@@ -109,7 +122,8 @@ function plan(due, ns, nv) {
       : `<p class="done-day">Tagesplan geschafft ✓</p><p class="muted">Wenn du magst, hör nebenbei noch Audio-Abrufen oder Hintergrund.</p>${actions(extra, 'Heute', 'de')}`}
     <div class="steps">${steps.map((s, i) => btn(s, `step${s.ok ? ' ok' : ''}${s === next ? ' now' : ''}`,
       `<i>${s.ok ? '✓' : i + 1}</i><span>${s.label}</span><small>${s.n || ''}</small>`)).join('')}</div>
-    ${next ? `<details><summary>Nebenbei (freiwillig): Audio-Abrufen · Hintergrund</summary>${actions(extra, 'Heute', 'de')}</details>` : ''}</section>`;
+    ${next ? `<details><summary>Nebenbei (freiwillig): Audio-Abrufen · Hintergrund</summary>${actions(extra, 'Heute', 'de')}</details>` : ''}
+    ${due.length ? `<details><summary>Wiederholungen zu schwer?</summary><p class="muted">Setzt alle ${due.length} fälligen Karten zurück. Sie kommen dann wieder als neu, also mit Kennenlernen und Nachsprechen, jeden Tag nur so viele, wie du unter Mehr eingestellt hast. Einzelne Karten setzt du beim Abrufen mit „Kenne ich gar nicht“ zurück.</p>${resetBtn(due, 'Fällige Wiederholungen zurücksetzen')}</details>` : ''}</section>`;
 }
 
 function vAnleitung() {
@@ -132,9 +146,9 @@ function vGroup(id) {
   const all = g.blocks.flat(), back = g.kind === 's' ? 'inseln' : 'vokabeln';
   return `<a href="#${back}" class="back">‹ Zurück</a><h2 class="pt">${esc(g.title)}</h2>
     <section class="card"><h3>Alles</h3>${actions(all, g.title, 'cde')}
-      <button class="ghost" data-dl="${g.id}">Offline laden</button> <div id="dl-${g.id}" class="dl"></div></section>` +
+      <button class="ghost" data-dl="${g.id}">Offline laden</button> ${resetBtn(all, 'Alles zurücksetzen')} <div id="dl-${g.id}" class="dl"></div></section>` +
     g.blocks.map((b, i) => `<section class="card"><h3>Block ${i + 1} <small>${seenN(b)}/${b.length} gesehen · ${sitsN(b)} sitzen</small></h3>
-      ${actions(b, `${g.title} · Block ${i + 1}`)}
+      ${actions(b, `${g.title} · Block ${i + 1}`)}${seenN(b) ? resetBtn(b, 'Block zurücksetzen') : ''}
       <details><summary>Inhalt</summary>${b.map(c => `<div class="li"><span>${esc(D.cards[c].fr)}</span><small>${esc(D.cards[c].de)}</small></div>`).join('')}</details>
     </section>`).join('');
 }
@@ -188,6 +202,8 @@ function vEinst() {
     ? '<p>Läuft als installierte App ✓</p>'
     : installEvt ? '<button class="primary" data-install>Auf dem Startbildschirm installieren</button>'
     : '<p class="muted">In Chrome: Menü ⋮ → „App installieren“ bzw. „Zum Startbildschirm hinzufügen“. Den Link direkt in der Chrome-App öffnen, nicht in der Vorschau von WhatsApp oder Gmail.</p>'}</section>
+  <section class="card form"><h3>Lernstand</h3><p class="muted">Setzt alle bisher gesehenen Sätze und Wörter zurück, dann fängst du von vorn an. Einzelne Inseln oder Blöcke setzt du auf der jeweiligen Inselseite zurück.</p>
+    ${resetBtn(Object.keys(D.cards), 'Alles zurücksetzen')}</section>
   <section class="card form"><h3>Offline</h3><button class="ghost" data-dl="*">Alle Audios offline laden (ca. 45 MB)</button> <div id="dl-*" class="dl"></div></section>`;
 }
 
@@ -254,6 +270,7 @@ document.addEventListener('click', e => {
   if (!t) return;
   if (t.dataset.go) { const { ids, title } = stash[+t.dataset.k]; startSession(t.dataset.go, ids, `${title} · ${MODES[t.dataset.go]}`, t.dataset.plan); }
   else if (t.dataset.dl) download(t.dataset.dl);
+  else if (t.dataset.reset) resetCards(stash[+t.dataset.reset].ids);
   else if (t.hasAttribute('data-sync')) sync.sync();
   else if (t.hasAttribute('data-logout')) sync.logout();
   else if (t.hasAttribute('data-install') && installEvt) installEvt.prompt().then(() => { installEvt = null; route(); });

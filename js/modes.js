@@ -79,13 +79,19 @@ export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
       const id = queue[0], k = c(id);
       body.innerHTML = `<div class="de small">${esc(k.de)}</div><div class="big fr">${esc(k.fr)}</div>
         <div class="ctl"><button data-play>🔊</button></div>${stars('r')}
-        <p class="muted">5★ nur fehlerfrei und ohne Zögern</p>${noteBox(id)}`;
+        <p class="muted">5★ nur fehlerfrei und ohne Zögern</p>
+        <button class="ghost" data-renew>↺ Kenne ich gar nicht: als neu lernen</button>${noteBox(id)}`;
       P.play([au(id, 'fr', k.fr)]);
     };
     body.onclick = e => {
       const t = e.target;
       if (t.closest('[data-show]')) reveal();
       else if (t.closest('[data-hint]')) body.querySelector('#hint').textContent = c(queue[0]).fr.replace(/\p{L}+/gu, w => w[0] + '…');
+      else if (t.closest('[data-renew]')) {
+        const id = queue.shift(); first[id] = 0;
+        store.put(id, { seen: 0, sp: null, un: null });
+        queue.length ? ask() : nextRound();
+      }
       else if (t.closest('[data-listen]')) P.play([au(queue[0], 'fr', c(queue[0]).fr)]);
       else if (t.closest('[data-play]')) P.play([au(queue[0], 'fr', c(queue[0]).fr)]);
       else if (t.dataset.r) {
