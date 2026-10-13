@@ -40,7 +40,7 @@ function resetCards(ids) {
 
 function todayNew(kind) {
   const s = store.settings(), t0 = srs.dayStart();
-  const ids = (kind === 's' ? D.islands : D.vocab).flatMap(g => g.blocks.flat());
+  const ids = kind === 's' ? D.islands.flatMap(g => g.blocks.flat()) : (D.vorder || D.vocab.flatMap(g => g.blocks.flat()));
   const seenToday = ids.filter(id => st(id).seen >= t0);
   const limit = new Date().getDay() === +s.restDay ? 0 : (kind === 's' ? +s.newS : +s.newV);
   const fresh = ids.filter(id => !st(id).seen).slice(0, Math.max(0, limit - seenToday.length));

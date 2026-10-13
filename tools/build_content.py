@@ -84,6 +84,66 @@ def blocks(group, prefix, size, kind):
             "blocks": [[c["id"] for c in b] for b in bl]}, items
 
 
+# Lernreihenfolge der neuen Wörter: zuerst die, die in den Sätzen vorkommen (in Insel-Reihenfolge),
+# danach der Rest gemischt über die Gruppen (keine Bedeutungsreihen wie alle Farben am Stück).
+IRREG = {
+    "être": "suis es est sommes êtes sont été", "avoir": "ai as a avons avez ont eu",
+    "aller": "vais vas va allons allez vont allé", "faire": "fais fait faisons faites font",
+    "pouvoir": "peux peut pouvez pourriez", "vouloir": "veux veut voulez voudrais",
+    "devoir": "dois doit devez", "savoir": "sais sait savez", "prendre": "prends prend prenez pris",
+    "venir": "viens vient venez venu", "boire": "bois boit buvez", "lire": "lis lit",
+    "dormir": "dors dort", "partir": "pars part", "sortir": "sors sort", "mettre": "mets met",
+    "voir": "vois voit vu", "connaître": "connais connaît", "dire": "dis dit",
+}
+ART = re.compile(r"^(le |la |les |l'|un |une |se |s')")
+
+
+def keys(fr):
+    out, fem = [], "(e)" in fr
+    for alt in re.split(r" / |, |; ", re.sub(r"\([^)]*\)", "", fr.lower())):
+        alt = alt.strip().rstrip(" !?.…")
+        if alt.startswith("l'"):
+            out.append(("s", alt))
+            continue
+        alt = ART.sub("", alt)
+        if not alt:
+            continue
+        if alt in IRREG:
+            out += [("w", w) for w in IRREG[alt].split()]
+        if " " in alt or "-" in alt or "'" in alt:
+            out.append(("s", alt))
+        elif re.search(r"(er|ir|re)$", alt) and len(alt) >= 6:
+            out.append(("p", alt[:-2]))
+        else:
+            out += [("w", alt)] + ([("w", alt + "s")] if len(alt) >= 4 else []) + \
+                   ([("w", alt + "e"), ("w", alt + "es")] if fem else [])
+    return out
+
+
+def vocab_order(islands, vocab, cards):
+    vids = list(dict.fromkeys(i for g in vocab for b in g["blocks"] for i in b))
+    vk = {i: keys(cards[i]["fr"]) for i in vids}
+    order, done = [], set()
+    for isl in islands:
+        for sid in (i for b in isl["blocks"] for i in b):
+            low = cards[sid]["fr"].lower().replace("’", "'")
+            toks = set(re.findall(r"[a-zà-ÿœæ]+", low))
+            for vid in vids:
+                if vid in done:
+                    continue
+                if any((t == "w" and k in toks) or (t == "s" and k in low) or
+                       (t == "p" and any(x.startswith(k) for x in toks)) for t, k in vk[vid]):
+                    order.append(vid); done.add(vid)
+    rest = [[i for b in g["blocks"] for i in b if i not in done] for g in vocab]
+    while any(rest):
+        for r in rest:
+            if r:
+                i = r.pop(0)
+                if i not in done:
+                    order.append(i); done.add(i)
+    return order
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     cards, islands, vocab = {}, [], []
@@ -94,7 +154,7 @@ def main():
     for g in parse_vocab_md() + parse_pipe_file(SRC / "vokabeln-extra.txt"):
         voc, items = blocks(g, "v", BLOCK_V, "v")
         vocab.append(voc); cards.update({c["id"]: c for c in items})
-    data = {"islands": islands, "vocab": vocab, "cards": cards}
+    data = {"islands": islands, "vocab": vocab, "cards": cards, "vorder": vocab_order(islands, vocab, cards)}
     (OUT / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     shutil.copyfile(GRAMMAR_MD, OUT / "grammatik.md")
     ns = sum(1 for k in cards if k[0] == "s")

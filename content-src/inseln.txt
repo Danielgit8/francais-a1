@@ -38,6 +38,46 @@ Santé ! | Prost!
 Bon rétablissement ! | Gute Besserung!
 Amuse-toi bien ! | Viel Spaß!
 Bienvenue chez nous ! | Willkommen bei uns!
+# verstaendigung | Verständigung, Bitten & Telefon
+Pardon ? | Wie bitte?
+Je ne comprends pas. | Ich verstehe nicht.
+Je n'ai pas compris. | Ich habe es nicht verstanden.
+Vous pouvez répéter, s'il vous plaît ? | Können Sie das bitte wiederholen?
+Vous pouvez parler plus lentement, s'il vous plaît ? | Können Sie bitte langsamer sprechen?
+Vous pouvez parler plus fort ? | Können Sie lauter sprechen?
+Qu'est-ce que ça veut dire ? | Was bedeutet das?
+Comment dit-on « Bahnhof » en français ? | Wie sagt man „Bahnhof“ auf Französisch?
+Comment ça s'écrit ? | Wie schreibt man das?
+Vous pouvez l'écrire, s'il vous plaît ? | Können Sie es bitte aufschreiben?
+Comment ça se prononce ? | Wie spricht man das aus?
+Je ne sais pas. | Ich weiß es nicht.
+Je ne connais pas ce mot. | Ich kenne dieses Wort nicht.
+Je parle un peu français. | Ich spreche ein bisschen Französisch.
+Je ne parle pas bien français. | Ich spreche nicht gut Französisch.
+Vous parlez anglais ? | Sprechen Sie Englisch?
+Vous pouvez m'aider, s'il vous plaît ? | Können Sie mir bitte helfen?
+Tu peux fermer la fenêtre ? | Kannst du das Fenster schließen?
+Vous pourriez m'aider ? | Könnten Sie mir helfen?
+Est-ce que je peux entrer ? | Darf ich hereinkommen?
+Je peux m'asseoir ici ? | Darf ich mich hier hinsetzen?
+Oui, bien sûr. | Ja, natürlich.
+Non, désolé, ce n'est pas possible. | Nein, tut mir leid, das ist nicht möglich.
+Il est interdit de fumer. | Rauchen ist verboten.
+Il faut réserver. | Man muss reservieren.
+Attention ! | Achtung!
+C'est vrai ? | Wirklich?
+Je ne suis pas d'accord. | Ich bin nicht einverstanden.
+Dommage ! | Schade!
+Ça dépend. | Kommt darauf an.
+Allô ? | Hallo? (am Telefon)
+Allô, c'est Daniel. | Hallo, hier ist Daniel.
+Je voudrais parler à madame Dupont, s'il vous plaît. | Ich möchte bitte mit Frau Dupont sprechen.
+C'est de la part de qui ? | Wer ist am Apparat?
+Ne quittez pas. | Bleiben Sie dran.
+Elle n'est pas là. | Sie ist nicht da.
+Je peux laisser un message ? | Kann ich eine Nachricht hinterlassen?
+Vous pouvez me rappeler ? | Können Sie mich zurückrufen?
+Je rappelle plus tard. | Ich rufe später wieder an.
 # ueber-mich | Über mich
 Je m'appelle Daniel. | Ich heiße Daniel.
 Comment vous appelez-vous ? | Wie heißen Sie?
@@ -78,220 +118,43 @@ Quelles langues parlez-vous ? | Welche Sprachen sprechen Sie?
 J'apprends le français parce que j'aime la France. | Ich lerne Französisch, weil ich Frankreich mag.
 J'apprends le français pour mon travail. | Ich lerne Französisch für meine Arbeit.
 J'apprends le français depuis six mois. | Ich lerne seit sechs Monaten Französisch.
-# familie | Familie & Personen
-J'ai un frère et deux sœurs. | Ich habe einen Bruder und zwei Schwestern.
-Je suis fils unique. | Ich bin Einzelkind.
-Nous sommes quatre dans ma famille. | In meiner Familie sind wir zu viert.
-Voici mon père. Il s'appelle Thomas. | Das ist mein Vater. Er heißt Thomas.
-Voici ma mère. Elle s'appelle Marie. | Das ist meine Mutter. Sie heißt Marie.
-Ce sont mes parents. | Das sind meine Eltern.
-Mon frère a trente ans. | Mein Bruder ist dreißig Jahre alt.
-Ma sœur habite à Hambourg. | Meine Schwester wohnt in Hamburg.
-Mon frère est cuisinier. | Mein Bruder ist Koch.
-Ma grand-mère a quatre-vingts ans. | Meine Großmutter ist achtzig Jahre alt.
-Mes grands-parents habitent à la campagne. | Meine Großeltern wohnen auf dem Land.
-J'ai une fille. Elle a cinq ans. | Ich habe eine Tochter. Sie ist fünf Jahre alt.
-Mon fils va à l'école. | Mein Sohn geht zur Schule.
-Mon oncle et ma tante ont trois enfants. | Mein Onkel und meine Tante haben drei Kinder.
-C'est mon cousin, il est très drôle. | Das ist mein Cousin, er ist sehr lustig.
-C'est ma meilleure amie, Julie. | Das ist meine beste Freundin, Julie.
-Mon mari travaille dans une banque. | Mein Mann arbeitet in einer Bank.
-Ma femme est professeure. | Meine Frau ist Lehrerin.
-Tu as des frères et sœurs ? | Hast du Geschwister?
-Comment s'appelle ta sœur ? | Wie heißt deine Schwester?
-Elle est grande et mince. | Sie ist groß und schlank.
-Il est petit et un peu gros. | Er ist klein und ein bisschen dick.
-Elle a les cheveux longs et blonds. | Sie hat lange blonde Haare.
-Il a les cheveux courts et bruns. | Er hat kurze braune Haare.
-Il a les yeux bleus. | Er hat blaue Augen.
-Elle a les yeux marron. | Sie hat braune Augen.
-Mon père porte des lunettes. | Mein Vater trägt eine Brille.
-Il a une barbe. | Er hat einen Bart.
-Ma mère est très gentille. | Meine Mutter ist sehr nett.
-Mon frère est sportif, mais un peu paresseux. | Mein Bruder ist sportlich, aber ein bisschen faul.
-Ma sœur est timide et calme. | Meine Schwester ist schüchtern und ruhig.
-Mon ami est sympa et intelligent. | Mein Freund ist sympathisch und intelligent.
-Comment est ton frère ? | Wie ist dein Bruder?
-Qui est-ce ? C'est mon voisin. | Wer ist das? Das ist mein Nachbar.
-Ma collègue est jeune et très sérieuse. | Meine Kollegin ist jung und sehr gewissenhaft.
-Mon chien s'appelle Max. | Mein Hund heißt Max.
-# vorlieben | Vorlieben & Hobbys
-J'adore le cinéma. | Ich liebe das Kino.
-J'aime beaucoup la musique. | Ich mag Musik sehr.
-J'aime bien lire. | Ich lese gern.
-Je n'aime pas le football. | Ich mag Fußball nicht.
-Je déteste le froid. | Ich hasse die Kälte.
-Je préfère le thé. | Ich mag lieber Tee.
-Je préfère rester à la maison. | Ich bleibe lieber zu Hause.
-Qu'est-ce que vous faites pendant votre temps libre ? | Was machen Sie in Ihrer Freizeit?
-Quels sont tes loisirs ? | Was sind deine Hobbys?
-Je fais du sport trois fois par semaine. | Ich mache dreimal pro Woche Sport.
-Je fais du vélo le week-end. | Am Wochenende fahre ich Fahrrad.
-Je fais de la natation. | Ich gehe schwimmen.
-Je fais du yoga le matin. | Ich mache morgens Yoga.
-Je joue au tennis le samedi. | Samstags spiele ich Tennis.
-Je joue aux cartes avec mes amis. | Ich spiele Karten mit meinen Freunden.
-Je joue de la guitare. | Ich spiele Gitarre.
-Je joue du piano depuis dix ans. | Ich spiele seit zehn Jahren Klavier.
-J'aime voyager et prendre des photos. | Ich reise gern und fotografiere gern.
-J'aime cuisiner pour mes amis. | Ich koche gern für meine Freunde.
-Je vais souvent au cinéma. | Ich gehe oft ins Kino.
-Je vais à la piscine le mercredi. | Mittwochs gehe ich ins Schwimmbad.
-Je regarde des séries le soir. | Abends schaue ich Serien.
-J'écoute de la musique dans le bus. | Im Bus höre ich Musik.
-Mon film préféré, c'est Amélie. | Mein Lieblingsfilm ist Amélie.
-Ma couleur préférée, c'est le bleu. | Meine Lieblingsfarbe ist Blau.
-Mon plat préféré, c'est la pizza. | Mein Lieblingsessen ist Pizza.
-Tu aimes danser ? | Tanzt du gern?
-Oui, j'adore ! | Ja, sehr gern!
-Non, pas du tout. | Nein, überhaupt nicht.
-Moi aussi. | Ich auch.
-Moi non plus. | Ich auch nicht.
-C'est super ! | Das ist super!
-C'est intéressant. | Das ist interessant.
-C'est ennuyeux. | Das ist langweilig.
-Ça me plaît beaucoup. | Das gefällt mir sehr.
-Je trouve que c'est trop cher. | Ich finde, das ist zu teuer.
-# tagesablauf | Tagesablauf
-Je me lève à sept heures. | Ich stehe um sieben Uhr auf.
-Je me réveille à six heures et demie. | Ich wache um halb sieben auf.
-Je prends une douche. | Ich dusche.
-Je m'habille et je prends mon petit-déjeuner. | Ich ziehe mich an und frühstücke.
-Le matin, je bois un café. | Morgens trinke ich einen Kaffee.
-Je vais au travail en bus. | Ich fahre mit dem Bus zur Arbeit.
-Je vais à l'université à pied. | Ich gehe zu Fuß zur Universität.
-Je travaille de neuf heures à dix-sept heures. | Ich arbeite von neun bis siebzehn Uhr.
-Je commence à huit heures. | Ich fange um acht Uhr an.
-À midi, je mange à la cantine. | Mittags esse ich in der Kantine.
-À midi, je mange un sandwich avec mes collègues. | Mittags esse ich ein Sandwich mit meinen Kollegen.
-Je finis à cinq heures. | Ich höre um fünf Uhr auf.
-Après le travail, je fais les courses. | Nach der Arbeit kaufe ich ein.
-Je rentre à la maison vers six heures. | Ich komme gegen sechs Uhr nach Hause.
-Le soir, je fais la cuisine. | Abends koche ich.
-Après le dîner, je regarde la télé. | Nach dem Abendessen sehe ich fern.
-Je lis un livre avant de dormir. | Vor dem Schlafengehen lese ich ein Buch.
-Je me couche à onze heures. | Ich gehe um elf Uhr ins Bett.
-D'abord, je me lève. | Zuerst stehe ich auf.
-Ensuite, je vais au bureau. | Dann gehe ich ins Büro.
-Enfin, je me couche. | Schließlich gehe ich ins Bett.
-D'habitude, je prends le métro. | Normalerweise nehme ich die Metro.
-Le week-end, je dors longtemps. | Am Wochenende schlafe ich lange.
-Le samedi, je ne travaille pas. | Samstags arbeite ich nicht.
-Le dimanche, je me repose. | Sonntags ruhe ich mich aus.
-Je ne bois jamais de café le soir. | Abends trinke ich nie Kaffee.
-Je vais au cinéma une fois par mois. | Ich gehe einmal im Monat ins Kino.
-Tu te lèves à quelle heure ? | Um wie viel Uhr stehst du auf?
-Vous commencez à quelle heure ? | Um wie viel Uhr fangen Sie an?
-Je me dépêche, je suis en retard ! | Ich beeile mich, ich bin spät dran!
-Je me brosse les dents. | Ich putze mir die Zähne.
-Je fais le ménage le samedi matin. | Samstagmorgens putze ich.
-Je promène mon chien tous les jours. | Ich gehe jeden Tag mit meinem Hund spazieren.
-# zeit | Zeit, Termine & Verabredungen
-Quelle heure est-il ? | Wie spät ist es?
-Il est huit heures. | Es ist acht Uhr.
-Il est huit heures et quart. | Es ist Viertel nach acht.
-Il est huit heures et demie. | Es ist halb neun.
-Il est neuf heures moins le quart. | Es ist Viertel vor neun.
-Il est midi. | Es ist zwölf Uhr mittags.
-Il est minuit. | Es ist Mitternacht.
-Excusez-moi, vous avez l'heure ? | Entschuldigung, wissen Sie, wie spät es ist?
-On est quel jour aujourd'hui ? | Welcher Tag ist heute?
-Aujourd'hui, on est lundi. | Heute ist Montag.
-On est le combien ? | Den Wievielten haben wir?
-On est le douze octobre. | Wir haben den zwölften Oktober.
-Le magasin ouvre à neuf heures. | Das Geschäft öffnet um neun Uhr.
-La banque ferme à quelle heure ? | Um wie viel Uhr schließt die Bank?
-Le musée est ouvert du mardi au dimanche. | Das Museum ist von Dienstag bis Sonntag geöffnet.
-La pharmacie est fermée le dimanche. | Die Apotheke ist sonntags geschlossen.
-Tu es libre samedi soir ? | Hast du Samstagabend Zeit?
-On va au cinéma ce soir ? | Gehen wir heute Abend ins Kino?
-Tu veux venir dîner chez moi ? | Willst du zum Abendessen zu mir kommen?
-Ça te dit d'aller à la plage ? | Hast du Lust, an den Strand zu gehen?
-Je t'invite à mon anniversaire samedi. | Ich lade dich am Samstag zu meinem Geburtstag ein.
-Oui, avec plaisir ! | Ja, gerne!
-D'accord, bonne idée ! | Einverstanden, gute Idee!
-Pourquoi pas ? | Warum nicht?
-On se retrouve où ? | Wo treffen wir uns?
-On se retrouve à quelle heure ? | Um wie viel Uhr treffen wir uns?
-Rendez-vous à vingt heures devant le cinéma. | Wir treffen uns um zwanzig Uhr vor dem Kino.
-Désolé, je ne peux pas. | Tut mir leid, ich kann nicht.
-Je ne suis pas libre samedi, je dois travailler. | Ich habe am Samstag keine Zeit, ich muss arbeiten.
-J'ai déjà un rendez-vous. | Ich habe schon eine Verabredung.
-Une autre fois, peut-être ? | Vielleicht ein anderes Mal?
-Et dimanche, ça va ? | Und Sonntag, passt das?
-Je voudrais prendre rendez-vous, s'il vous plaît. | Ich möchte bitte einen Termin vereinbaren.
-Mardi à dix heures, c'est possible ? | Ist Dienstag um zehn Uhr möglich?
-Oui, ça me va. | Ja, das passt mir.
-Je pars en vacances dans deux jours. | Ich fahre in zwei Tagen in den Urlaub.
-J'habite ici depuis trois ans. | Ich wohne seit drei Jahren hier.
-# wohnen | Wohnen
-J'habite dans un appartement. | Ich wohne in einer Wohnung.
-J'habite dans une petite maison avec un jardin. | Ich wohne in einem kleinen Haus mit Garten.
-C'est au troisième étage. | Es ist im dritten Stock.
-Il n'y a pas d'ascenseur. | Es gibt keinen Aufzug.
-J'habite au rez-de-chaussée. | Ich wohne im Erdgeschoss.
-Il y a trois pièces. | Es gibt drei Zimmer.
-Il y a une cuisine, un salon et deux chambres. | Es gibt eine Küche, ein Wohnzimmer und zwei Schlafzimmer.
-La salle de bains est petite. | Das Badezimmer ist klein.
-Il y a un balcon. | Es gibt einen Balkon.
-Il n'y a pas de jardin. | Es gibt keinen Garten.
-Mon appartement est petit mais très clair. | Meine Wohnung ist klein, aber sehr hell.
-Ma maison est grande et calme. | Mein Haus ist groß und ruhig.
-L'appartement est moderne et confortable. | Die Wohnung ist modern und komfortabel.
-J'habite dans le centre-ville. | Ich wohne in der Innenstadt.
-J'habite à la campagne. | Ich wohne auf dem Land.
-J'aime mon quartier parce que c'est calme. | Ich mag mein Viertel, weil es ruhig ist.
-Dans mon quartier, il y a beaucoup de magasins. | In meinem Viertel gibt es viele Geschäfte.
-Dans ma chambre, il y a un lit, une armoire et un bureau. | In meinem Zimmer gibt es ein Bett, einen Schrank und einen Schreibtisch.
-Dans le salon, il y a un canapé et une télé. | Im Wohnzimmer gibt es ein Sofa und einen Fernseher.
-Le lit est à côté de la fenêtre. | Das Bett steht neben dem Fenster.
-La lampe est sur le bureau. | Die Lampe steht auf dem Schreibtisch.
-Le chat est sous la table. | Die Katze ist unter dem Tisch.
-Les livres sont sur l'étagère. | Die Bücher stehen im Regal.
-La cuisine est à gauche. | Die Küche ist links.
-Les toilettes sont au fond du couloir. | Die Toilette ist am Ende des Flurs.
-Le loyer est de six cents euros par mois. | Die Miete beträgt sechshundert Euro im Monat.
-Je cherche un appartement à louer. | Ich suche eine Wohnung zur Miete.
-J'ai un nouvel appartement ! | Ich habe eine neue Wohnung!
-Tu habites dans une maison ou un appartement ? | Wohnst du in einem Haus oder in einer Wohnung?
-Mes voisins sont très sympas. | Meine Nachbarn sind sehr nett.
-Je n'ai pas de lave-vaisselle. | Ich habe keine Spülmaschine.
-Je range ma chambre. | Ich räume mein Zimmer auf.
-# weg | Orte & Wegbeschreibung
-Excusez-moi, où est la gare, s'il vous plaît ? | Entschuldigung, wo ist bitte der Bahnhof?
-Pour aller au musée, s'il vous plaît ? | Wie komme ich bitte zum Museum?
-Est-ce qu'il y a une pharmacie près d'ici ? | Gibt es hier in der Nähe eine Apotheke?
-Il y a un supermarché dans le quartier ? | Gibt es im Viertel einen Supermarkt?
-Je cherche la rue Victor Hugo. | Ich suche die Rue Victor Hugo.
-C'est loin ? | Ist es weit?
-C'est près d'ici ? | Ist es hier in der Nähe?
-Je peux y aller à pied ? | Kann ich zu Fuß hingehen?
-Allez tout droit. | Gehen Sie geradeaus.
-Tournez à gauche. | Biegen Sie links ab.
-Tournez à droite. | Biegen Sie rechts ab.
-Prenez la première rue à droite. | Nehmen Sie die erste Straße rechts.
-Prenez la deuxième rue à gauche. | Nehmen Sie die zweite Straße links.
-Traversez la place. | Überqueren Sie den Platz.
-Traversez le pont. | Überqueren Sie die Brücke.
-Au feu, tournez à gauche. | An der Ampel biegen Sie links ab.
-Au carrefour, continuez tout droit. | An der Kreuzung gehen Sie weiter geradeaus.
-C'est à côté de la banque. | Es ist neben der Bank.
-C'est en face de la poste. | Es ist gegenüber der Post.
-C'est derrière la mairie. | Es ist hinter dem Rathaus.
-C'est entre la pharmacie et le café. | Es ist zwischen der Apotheke und dem Café.
-C'est au bout de la rue. | Es ist am Ende der Straße.
-C'est au coin de la rue. | Es ist an der Ecke der Straße.
-C'est à cinq minutes à pied. | Es sind fünf Minuten zu Fuß.
-C'est tout près. | Es ist ganz in der Nähe.
-C'est un peu loin, prenez le bus. | Es ist ein bisschen weit, nehmen Sie den Bus.
-Prenez la ligne quatre du métro. | Nehmen Sie die Metrolinie vier.
-Descendez à l'arrêt Opéra. | Steigen Sie an der Haltestelle Opéra aus.
-Désolé, je ne suis pas d'ici. | Tut mir leid, ich bin nicht von hier.
-La boulangerie est à droite, après le parc. | Die Bäckerei ist rechts, nach dem Park.
-L'hôtel est près de la gare. | Das Hotel ist in der Nähe des Bahnhofs.
-Le cinéma est loin du centre. | Das Kino ist weit vom Zentrum entfernt.
-Vous êtes ici, sur le plan. | Sie sind hier auf dem Plan.
-Merci beaucoup, madame ! | Vielen Dank, Madame!
+# fragen | Fragen & Antworten A1
+Qu'est-ce que c'est ? C'est un livre. | Was ist das? Das ist ein Buch.
+Qui est-ce ? C'est mon professeur. | Wer ist das? Das ist mein Lehrer.
+Tu as des enfants ? Oui, j'ai un fils. | Hast du Kinder? Ja, ich habe einen Sohn.
+Est-ce que tu as une voiture ? Non, je n'ai pas de voiture. | Hast du ein Auto? Nein, ich habe kein Auto.
+Tu n'aimes pas le café ? Si, j'adore le café ! | Magst du keinen Kaffee? Doch, ich liebe Kaffee!
+Tu parles anglais ? Oui, un peu. | Sprichst du Englisch? Ja, ein bisschen.
+Où est mon téléphone ? Il est sur la table. | Wo ist mein Handy? Es liegt auf dem Tisch.
+Où vas-tu ? Je vais à la boulangerie. | Wohin gehst du? Ich gehe zur Bäckerei.
+Quand pars-tu ? Je pars demain. | Wann fährst du? Ich fahre morgen.
+Comment vas-tu au travail ? À vélo. | Wie kommst du zur Arbeit? Mit dem Fahrrad.
+Combien de frères as-tu ? J'ai deux frères. | Wie viele Brüder hast du? Ich habe zwei Brüder.
+Pourquoi tu apprends le français ? Parce que j'aime voyager. | Warum lernst du Französisch? Weil ich gern reise.
+Quel jour sommes-nous ? Nous sommes mercredi. | Welcher Tag ist heute? Heute ist Mittwoch.
+Quelle est ta couleur préférée ? C'est le vert. | Was ist deine Lieblingsfarbe? Grün.
+Quels sports aimes-tu ? J'aime le tennis et le ski. | Welche Sportarten magst du? Ich mag Tennis und Skifahren.
+Tu viens d'où ? Je viens d'Autriche. | Woher kommst du? Ich komme aus Österreich.
+Avec qui tu vas au cinéma ? Avec ma sœur. | Mit wem gehst du ins Kino? Mit meiner Schwester.
+Qu'est-ce que tu manges le matin ? Je mange des céréales. | Was isst du morgens? Ich esse Müsli.
+Tu fais quoi ce soir ? Je reste à la maison. | Was machst du heute Abend? Ich bleibe zu Hause.
+Tu as un animal ? Oui, j'ai un chat. | Hast du ein Haustier? Ja, ich habe eine Katze.
+C'est à qui ? C'est à moi. | Wem gehört das? Das gehört mir.
+Tu travailles le samedi ? Non, je ne travaille jamais le samedi. | Arbeitest du samstags? Nein, samstags arbeite ich nie.
+Tu fumes ? Non, je ne fume plus. | Rauchst du? Nein, ich rauche nicht mehr.
+Tu veux quelque chose ? Non, merci, rien. | Willst du etwas? Nein danke, nichts.
+Il y a quelqu'un ? Non, il n'y a personne. | Ist da jemand? Nein, da ist niemand.
+Tu connais Paris ? Oui, je connais bien Paris. | Kennst du Paris? Ja, ich kenne Paris gut.
+Tu sais nager ? Oui, je sais nager. | Kannst du schwimmen? Ja, ich kann schwimmen.
+Tu peux venir demain ? Non, je dois travailler. | Kannst du morgen kommen? Nein, ich muss arbeiten.
+Tu veux un café ? Oui, s'il te plaît. | Willst du einen Kaffee? Ja, bitte.
+Il est quelle heure ? Il est trois heures. | Wie spät ist es? Es ist drei Uhr.
+Ton anniversaire, c'est quand ? C'est le dix mai. | Wann ist dein Geburtstag? Am zehnten Mai.
+Tu habites ici depuis quand ? Depuis deux ans. | Seit wann wohnst du hier? Seit zwei Jahren.
+Elle est française ? Non, elle est belge. | Ist sie Französin? Nein, sie ist Belgierin.
+Il est médecin ? Oui, il est médecin. | Ist er Arzt? Ja, er ist Arzt.
+Vous êtes combien ? Nous sommes trois. | Wie viele sind Sie? Wir sind zu dritt.
+Ça coûte combien ? Douze euros. | Was kostet das? Zwölf Euro.
 # einkaufen | Einkaufen
 Bonjour, je voudrais une baguette, s'il vous plaît. | Guten Tag, ich möchte bitte ein Baguette.
 Je voudrais un kilo de pommes. | Ich möchte ein Kilo Äpfel.
@@ -366,41 +229,112 @@ Je bois du thé, je ne bois pas de café. | Ich trinke Tee, ich trinke keinen Ka
 J'ai faim, on mange ? | Ich habe Hunger, essen wir?
 J'ai soif, je voudrais de l'eau. | Ich habe Durst, ich möchte Wasser.
 On va au restaurant ce soir ? | Gehen wir heute Abend ins Restaurant?
-# reisen | Reisen, Verkehr & Hotel
-Un billet pour Lyon, s'il vous plaît. | Eine Fahrkarte nach Lyon, bitte.
-Un aller-retour pour Paris, s'il vous plaît. | Eine Hin- und Rückfahrkarte nach Paris, bitte.
-Un aller simple, en seconde classe. | Eine einfache Fahrt, zweite Klasse.
-Le prochain train pour Paris part à quelle heure ? | Um wie viel Uhr fährt der nächste Zug nach Paris?
-Il arrive à quelle heure ? | Um wie viel Uhr kommt er an?
-Le train part de quelle voie ? | Von welchem Gleis fährt der Zug ab?
-Est-ce que je dois changer ? | Muss ich umsteigen?
-Le train a dix minutes de retard. | Der Zug hat zehn Minuten Verspätung.
-Quel bus va au centre-ville ? | Welcher Bus fährt ins Stadtzentrum?
-Où est l'arrêt de bus ? | Wo ist die Bushaltestelle?
-Où est la station de métro ? | Wo ist die Metrostation?
-Un ticket de métro, s'il vous plaît. | Ein Metroticket, bitte.
-Je descends à la prochaine. | Ich steige an der nächsten aus.
-Je vais à l'aéroport en taxi. | Ich fahre mit dem Taxi zum Flughafen.
-Je voyage en train. | Ich reise mit dem Zug.
-Bonjour, j'ai une réservation au nom de Becker. | Guten Tag, ich habe eine Reservierung auf den Namen Becker.
-Vous avez une chambre pour deux nuits ? | Haben Sie ein Zimmer für zwei Nächte?
-Une chambre double avec salle de bains, s'il vous plaît. | Ein Doppelzimmer mit Bad, bitte.
-C'est combien la nuit ? | Was kostet eine Nacht?
-Le petit-déjeuner est compris ? | Ist das Frühstück inklusive?
-Le petit-déjeuner est à quelle heure ? | Um wie viel Uhr gibt es Frühstück?
-Il y a le wifi ? | Gibt es WLAN?
-Voici la clé. Votre chambre est au deuxième étage. | Hier ist der Schlüssel. Ihr Zimmer ist im zweiten Stock.
-La douche ne marche pas. | Die Dusche funktioniert nicht.
-Voici mon passeport. | Hier ist mein Reisepass.
-Je suis en vacances à Nice. | Ich mache Urlaub in Nizza.
-Je reste une semaine. | Ich bleibe eine Woche.
-Je suis à l'hôtel près de la plage. | Ich bin in einem Hotel in der Nähe des Strandes.
-Je visite la ville et les musées. | Ich besichtige die Stadt und die Museen.
-Cet été, je vais en Espagne. | Diesen Sommer fahre ich nach Spanien.
-Je vais au Portugal en avion. | Ich fliege nach Portugal.
-Je voudrais aller aux États-Unis. | Ich möchte in die USA.
-Ma valise est trop lourde. | Mein Koffer ist zu schwer.
-Le vol est annulé. | Der Flug ist gestrichen.
+# weg | Orte & Wegbeschreibung
+Excusez-moi, où est la gare, s'il vous plaît ? | Entschuldigung, wo ist bitte der Bahnhof?
+Pour aller au musée, s'il vous plaît ? | Wie komme ich bitte zum Museum?
+Est-ce qu'il y a une pharmacie près d'ici ? | Gibt es hier in der Nähe eine Apotheke?
+Il y a un supermarché dans le quartier ? | Gibt es im Viertel einen Supermarkt?
+Je cherche la rue Victor Hugo. | Ich suche die Rue Victor Hugo.
+C'est loin ? | Ist es weit?
+C'est près d'ici ? | Ist es hier in der Nähe?
+Je peux y aller à pied ? | Kann ich zu Fuß hingehen?
+Allez tout droit. | Gehen Sie geradeaus.
+Tournez à gauche. | Biegen Sie links ab.
+Tournez à droite. | Biegen Sie rechts ab.
+Prenez la première rue à droite. | Nehmen Sie die erste Straße rechts.
+Prenez la deuxième rue à gauche. | Nehmen Sie die zweite Straße links.
+Traversez la place. | Überqueren Sie den Platz.
+Traversez le pont. | Überqueren Sie die Brücke.
+Au feu, tournez à gauche. | An der Ampel biegen Sie links ab.
+Au carrefour, continuez tout droit. | An der Kreuzung gehen Sie weiter geradeaus.
+C'est à côté de la banque. | Es ist neben der Bank.
+C'est en face de la poste. | Es ist gegenüber der Post.
+C'est derrière la mairie. | Es ist hinter dem Rathaus.
+C'est entre la pharmacie et le café. | Es ist zwischen der Apotheke und dem Café.
+C'est au bout de la rue. | Es ist am Ende der Straße.
+C'est au coin de la rue. | Es ist an der Ecke der Straße.
+C'est à cinq minutes à pied. | Es sind fünf Minuten zu Fuß.
+C'est tout près. | Es ist ganz in der Nähe.
+C'est un peu loin, prenez le bus. | Es ist ein bisschen weit, nehmen Sie den Bus.
+Prenez la ligne quatre du métro. | Nehmen Sie die Metrolinie vier.
+Descendez à l'arrêt Opéra. | Steigen Sie an der Haltestelle Opéra aus.
+Désolé, je ne suis pas d'ici. | Tut mir leid, ich bin nicht von hier.
+La boulangerie est à droite, après le parc. | Die Bäckerei ist rechts, nach dem Park.
+L'hôtel est près de la gare. | Das Hotel ist in der Nähe des Bahnhofs.
+Le cinéma est loin du centre. | Das Kino ist weit vom Zentrum entfernt.
+Vous êtes ici, sur le plan. | Sie sind hier auf dem Plan.
+Merci beaucoup, madame ! | Vielen Dank, Madame!
+# zeit | Zeit, Termine & Verabredungen
+Quelle heure est-il ? | Wie spät ist es?
+Il est huit heures. | Es ist acht Uhr.
+Il est huit heures et quart. | Es ist Viertel nach acht.
+Il est huit heures et demie. | Es ist halb neun.
+Il est neuf heures moins le quart. | Es ist Viertel vor neun.
+Il est midi. | Es ist zwölf Uhr mittags.
+Il est minuit. | Es ist Mitternacht.
+Excusez-moi, vous avez l'heure ? | Entschuldigung, wissen Sie, wie spät es ist?
+On est quel jour aujourd'hui ? | Welcher Tag ist heute?
+Aujourd'hui, on est lundi. | Heute ist Montag.
+On est le combien ? | Den Wievielten haben wir?
+On est le douze octobre. | Wir haben den zwölften Oktober.
+Le magasin ouvre à neuf heures. | Das Geschäft öffnet um neun Uhr.
+La banque ferme à quelle heure ? | Um wie viel Uhr schließt die Bank?
+Le musée est ouvert du mardi au dimanche. | Das Museum ist von Dienstag bis Sonntag geöffnet.
+La pharmacie est fermée le dimanche. | Die Apotheke ist sonntags geschlossen.
+Tu es libre samedi soir ? | Hast du Samstagabend Zeit?
+On va au cinéma ce soir ? | Gehen wir heute Abend ins Kino?
+Tu veux venir dîner chez moi ? | Willst du zum Abendessen zu mir kommen?
+Ça te dit d'aller à la plage ? | Hast du Lust, an den Strand zu gehen?
+Je t'invite à mon anniversaire samedi. | Ich lade dich am Samstag zu meinem Geburtstag ein.
+Oui, avec plaisir ! | Ja, gerne!
+D'accord, bonne idée ! | Einverstanden, gute Idee!
+Pourquoi pas ? | Warum nicht?
+On se retrouve où ? | Wo treffen wir uns?
+On se retrouve à quelle heure ? | Um wie viel Uhr treffen wir uns?
+Rendez-vous à vingt heures devant le cinéma. | Wir treffen uns um zwanzig Uhr vor dem Kino.
+Désolé, je ne peux pas. | Tut mir leid, ich kann nicht.
+Je ne suis pas libre samedi, je dois travailler. | Ich habe am Samstag keine Zeit, ich muss arbeiten.
+J'ai déjà un rendez-vous. | Ich habe schon eine Verabredung.
+Une autre fois, peut-être ? | Vielleicht ein anderes Mal?
+Et dimanche, ça va ? | Und Sonntag, passt das?
+Je voudrais prendre rendez-vous, s'il vous plaît. | Ich möchte bitte einen Termin vereinbaren.
+Mardi à dix heures, c'est possible ? | Ist Dienstag um zehn Uhr möglich?
+Oui, ça me va. | Ja, das passt mir.
+Je pars en vacances dans deux jours. | Ich fahre in zwei Tagen in den Urlaub.
+J'habite ici depuis trois ans. | Ich wohne seit drei Jahren hier.
+# wohnen | Wohnen
+J'habite dans un appartement. | Ich wohne in einer Wohnung.
+J'habite dans une petite maison avec un jardin. | Ich wohne in einem kleinen Haus mit Garten.
+C'est au troisième étage. | Es ist im dritten Stock.
+Il n'y a pas d'ascenseur. | Es gibt keinen Aufzug.
+J'habite au rez-de-chaussée. | Ich wohne im Erdgeschoss.
+Il y a trois pièces. | Es gibt drei Zimmer.
+Il y a une cuisine, un salon et deux chambres. | Es gibt eine Küche, ein Wohnzimmer und zwei Schlafzimmer.
+La salle de bains est petite. | Das Badezimmer ist klein.
+Il y a un balcon. | Es gibt einen Balkon.
+Il n'y a pas de jardin. | Es gibt keinen Garten.
+Mon appartement est petit mais très clair. | Meine Wohnung ist klein, aber sehr hell.
+Ma maison est grande et calme. | Mein Haus ist groß und ruhig.
+L'appartement est moderne et confortable. | Die Wohnung ist modern und komfortabel.
+J'habite dans le centre-ville. | Ich wohne in der Innenstadt.
+J'habite à la campagne. | Ich wohne auf dem Land.
+J'aime mon quartier parce que c'est calme. | Ich mag mein Viertel, weil es ruhig ist.
+Dans mon quartier, il y a beaucoup de magasins. | In meinem Viertel gibt es viele Geschäfte.
+Dans ma chambre, il y a un lit, une armoire et un bureau. | In meinem Zimmer gibt es ein Bett, einen Schrank und einen Schreibtisch.
+Dans le salon, il y a un canapé et une télé. | Im Wohnzimmer gibt es ein Sofa und einen Fernseher.
+Le lit est à côté de la fenêtre. | Das Bett steht neben dem Fenster.
+La lampe est sur le bureau. | Die Lampe steht auf dem Schreibtisch.
+Le chat est sous la table. | Die Katze ist unter dem Tisch.
+Les livres sont sur l'étagère. | Die Bücher stehen im Regal.
+La cuisine est à gauche. | Die Küche ist links.
+Les toilettes sont au fond du couloir. | Die Toilette ist am Ende des Flurs.
+Le loyer est de six cents euros par mois. | Die Miete beträgt sechshundert Euro im Monat.
+Je cherche un appartement à louer. | Ich suche eine Wohnung zur Miete.
+J'ai un nouvel appartement ! | Ich habe eine neue Wohnung!
+Tu habites dans une maison ou un appartement ? | Wohnst du in einem Haus oder in einer Wohnung?
+Mes voisins sont très sympas. | Meine Nachbarn sind sehr nett.
+Je n'ai pas de lave-vaisselle. | Ich habe keine Spülmaschine.
+Je range ma chambre. | Ich räume mein Zimmer auf.
 # gesundheit | Befinden & Gesundheit
 J'ai faim. | Ich habe Hunger.
 J'ai soif. | Ich habe Durst.
@@ -438,6 +372,149 @@ On m'a volé mon sac. | Man hat mir meine Tasche gestohlen.
 Je suis content, je suis en forme. | Ich bin froh, ich bin fit.
 Elle est triste. | Sie ist traurig.
 Je suis stressé à cause du travail. | Ich bin wegen der Arbeit gestresst.
+# tagesablauf | Tagesablauf
+Je me lève à sept heures. | Ich stehe um sieben Uhr auf.
+Je me réveille à six heures et demie. | Ich wache um halb sieben auf.
+Je prends une douche. | Ich dusche.
+Je m'habille et je prends mon petit-déjeuner. | Ich ziehe mich an und frühstücke.
+Le matin, je bois un café. | Morgens trinke ich einen Kaffee.
+Je vais au travail en bus. | Ich fahre mit dem Bus zur Arbeit.
+Je vais à l'université à pied. | Ich gehe zu Fuß zur Universität.
+Je travaille de neuf heures à dix-sept heures. | Ich arbeite von neun bis siebzehn Uhr.
+Je commence à huit heures. | Ich fange um acht Uhr an.
+À midi, je mange à la cantine. | Mittags esse ich in der Kantine.
+À midi, je mange un sandwich avec mes collègues. | Mittags esse ich ein Sandwich mit meinen Kollegen.
+Je finis à cinq heures. | Ich höre um fünf Uhr auf.
+Après le travail, je fais les courses. | Nach der Arbeit kaufe ich ein.
+Je rentre à la maison vers six heures. | Ich komme gegen sechs Uhr nach Hause.
+Le soir, je fais la cuisine. | Abends koche ich.
+Après le dîner, je regarde la télé. | Nach dem Abendessen sehe ich fern.
+Je lis un livre avant de dormir. | Vor dem Schlafengehen lese ich ein Buch.
+Je me couche à onze heures. | Ich gehe um elf Uhr ins Bett.
+D'abord, je me lève. | Zuerst stehe ich auf.
+Ensuite, je vais au bureau. | Dann gehe ich ins Büro.
+Enfin, je me couche. | Schließlich gehe ich ins Bett.
+D'habitude, je prends le métro. | Normalerweise nehme ich die Metro.
+Le week-end, je dors longtemps. | Am Wochenende schlafe ich lange.
+Le samedi, je ne travaille pas. | Samstags arbeite ich nicht.
+Le dimanche, je me repose. | Sonntags ruhe ich mich aus.
+Je ne bois jamais de café le soir. | Abends trinke ich nie Kaffee.
+Je vais au cinéma une fois par mois. | Ich gehe einmal im Monat ins Kino.
+Tu te lèves à quelle heure ? | Um wie viel Uhr stehst du auf?
+Vous commencez à quelle heure ? | Um wie viel Uhr fangen Sie an?
+Je me dépêche, je suis en retard ! | Ich beeile mich, ich bin spät dran!
+Je me brosse les dents. | Ich putze mir die Zähne.
+Je fais le ménage le samedi matin. | Samstagmorgens putze ich.
+Je promène mon chien tous les jours. | Ich gehe jeden Tag mit meinem Hund spazieren.
+# familie | Familie & Personen
+J'ai un frère et deux sœurs. | Ich habe einen Bruder und zwei Schwestern.
+Je suis fils unique. | Ich bin Einzelkind.
+Nous sommes quatre dans ma famille. | In meiner Familie sind wir zu viert.
+Voici mon père. Il s'appelle Thomas. | Das ist mein Vater. Er heißt Thomas.
+Voici ma mère. Elle s'appelle Marie. | Das ist meine Mutter. Sie heißt Marie.
+Ce sont mes parents. | Das sind meine Eltern.
+Mon frère a trente ans. | Mein Bruder ist dreißig Jahre alt.
+Ma sœur habite à Hambourg. | Meine Schwester wohnt in Hamburg.
+Mon frère est cuisinier. | Mein Bruder ist Koch.
+Ma grand-mère a quatre-vingts ans. | Meine Großmutter ist achtzig Jahre alt.
+Mes grands-parents habitent à la campagne. | Meine Großeltern wohnen auf dem Land.
+J'ai une fille. Elle a cinq ans. | Ich habe eine Tochter. Sie ist fünf Jahre alt.
+Mon fils va à l'école. | Mein Sohn geht zur Schule.
+Mon oncle et ma tante ont trois enfants. | Mein Onkel und meine Tante haben drei Kinder.
+C'est mon cousin, il est très drôle. | Das ist mein Cousin, er ist sehr lustig.
+C'est ma meilleure amie, Julie. | Das ist meine beste Freundin, Julie.
+Mon mari travaille dans une banque. | Mein Mann arbeitet in einer Bank.
+Ma femme est professeure. | Meine Frau ist Lehrerin.
+Tu as des frères et sœurs ? | Hast du Geschwister?
+Comment s'appelle ta sœur ? | Wie heißt deine Schwester?
+Elle est grande et mince. | Sie ist groß und schlank.
+Il est petit et un peu gros. | Er ist klein und ein bisschen dick.
+Elle a les cheveux longs et blonds. | Sie hat lange blonde Haare.
+Il a les cheveux courts et bruns. | Er hat kurze braune Haare.
+Il a les yeux bleus. | Er hat blaue Augen.
+Elle a les yeux marron. | Sie hat braune Augen.
+Mon père porte des lunettes. | Mein Vater trägt eine Brille.
+Il a une barbe. | Er hat einen Bart.
+Ma mère est très gentille. | Meine Mutter ist sehr nett.
+Mon frère est sportif, mais un peu paresseux. | Mein Bruder ist sportlich, aber ein bisschen faul.
+Ma sœur est timide et calme. | Meine Schwester ist schüchtern und ruhig.
+Mon ami est sympa et intelligent. | Mein Freund ist sympathisch und intelligent.
+Comment est ton frère ? | Wie ist dein Bruder?
+Qui est-ce ? C'est mon voisin. | Wer ist das? Das ist mein Nachbar.
+Ma collègue est jeune et très sérieuse. | Meine Kollegin ist jung und sehr gewissenhaft.
+Mon chien s'appelle Max. | Mein Hund heißt Max.
+# vorlieben | Vorlieben & Hobbys
+J'adore le cinéma. | Ich liebe das Kino.
+J'aime beaucoup la musique. | Ich mag Musik sehr.
+J'aime bien lire. | Ich lese gern.
+Je n'aime pas le football. | Ich mag Fußball nicht.
+Je déteste le froid. | Ich hasse die Kälte.
+Je préfère le thé. | Ich mag lieber Tee.
+Je préfère rester à la maison. | Ich bleibe lieber zu Hause.
+Qu'est-ce que vous faites pendant votre temps libre ? | Was machen Sie in Ihrer Freizeit?
+Quels sont tes loisirs ? | Was sind deine Hobbys?
+Je fais du sport trois fois par semaine. | Ich mache dreimal pro Woche Sport.
+Je fais du vélo le week-end. | Am Wochenende fahre ich Fahrrad.
+Je fais de la natation. | Ich gehe schwimmen.
+Je fais du yoga le matin. | Ich mache morgens Yoga.
+Je joue au tennis le samedi. | Samstags spiele ich Tennis.
+Je joue aux cartes avec mes amis. | Ich spiele Karten mit meinen Freunden.
+Je joue de la guitare. | Ich spiele Gitarre.
+Je joue du piano depuis dix ans. | Ich spiele seit zehn Jahren Klavier.
+J'aime voyager et prendre des photos. | Ich reise gern und fotografiere gern.
+J'aime cuisiner pour mes amis. | Ich koche gern für meine Freunde.
+Je vais souvent au cinéma. | Ich gehe oft ins Kino.
+Je vais à la piscine le mercredi. | Mittwochs gehe ich ins Schwimmbad.
+Je regarde des séries le soir. | Abends schaue ich Serien.
+J'écoute de la musique dans le bus. | Im Bus höre ich Musik.
+Mon film préféré, c'est Amélie. | Mein Lieblingsfilm ist Amélie.
+Ma couleur préférée, c'est le bleu. | Meine Lieblingsfarbe ist Blau.
+Mon plat préféré, c'est la pizza. | Mein Lieblingsessen ist Pizza.
+Tu aimes danser ? | Tanzt du gern?
+Oui, j'adore ! | Ja, sehr gern!
+Non, pas du tout. | Nein, überhaupt nicht.
+Moi aussi. | Ich auch.
+Moi non plus. | Ich auch nicht.
+C'est super ! | Das ist super!
+C'est intéressant. | Das ist interessant.
+C'est ennuyeux. | Das ist langweilig.
+Ça me plaît beaucoup. | Das gefällt mir sehr.
+Je trouve que c'est trop cher. | Ich finde, das ist zu teuer.
+# reisen | Reisen, Verkehr & Hotel
+Un billet pour Lyon, s'il vous plaît. | Eine Fahrkarte nach Lyon, bitte.
+Un aller-retour pour Paris, s'il vous plaît. | Eine Hin- und Rückfahrkarte nach Paris, bitte.
+Un aller simple, en seconde classe. | Eine einfache Fahrt, zweite Klasse.
+Le prochain train pour Paris part à quelle heure ? | Um wie viel Uhr fährt der nächste Zug nach Paris?
+Il arrive à quelle heure ? | Um wie viel Uhr kommt er an?
+Le train part de quelle voie ? | Von welchem Gleis fährt der Zug ab?
+Est-ce que je dois changer ? | Muss ich umsteigen?
+Le train a dix minutes de retard. | Der Zug hat zehn Minuten Verspätung.
+Quel bus va au centre-ville ? | Welcher Bus fährt ins Stadtzentrum?
+Où est l'arrêt de bus ? | Wo ist die Bushaltestelle?
+Où est la station de métro ? | Wo ist die Metrostation?
+Un ticket de métro, s'il vous plaît. | Ein Metroticket, bitte.
+Je descends à la prochaine. | Ich steige an der nächsten aus.
+Je vais à l'aéroport en taxi. | Ich fahre mit dem Taxi zum Flughafen.
+Je voyage en train. | Ich reise mit dem Zug.
+Bonjour, j'ai une réservation au nom de Becker. | Guten Tag, ich habe eine Reservierung auf den Namen Becker.
+Vous avez une chambre pour deux nuits ? | Haben Sie ein Zimmer für zwei Nächte?
+Une chambre double avec salle de bains, s'il vous plaît. | Ein Doppelzimmer mit Bad, bitte.
+C'est combien la nuit ? | Was kostet eine Nacht?
+Le petit-déjeuner est compris ? | Ist das Frühstück inklusive?
+Le petit-déjeuner est à quelle heure ? | Um wie viel Uhr gibt es Frühstück?
+Il y a le wifi ? | Gibt es WLAN?
+Voici la clé. Votre chambre est au deuxième étage. | Hier ist der Schlüssel. Ihr Zimmer ist im zweiten Stock.
+La douche ne marche pas. | Die Dusche funktioniert nicht.
+Voici mon passeport. | Hier ist mein Reisepass.
+Je suis en vacances à Nice. | Ich mache Urlaub in Nizza.
+Je reste une semaine. | Ich bleibe eine Woche.
+Je suis à l'hôtel près de la plage. | Ich bin in einem Hotel in der Nähe des Strandes.
+Je visite la ville et les musées. | Ich besichtige die Stadt und die Museen.
+Cet été, je vais en Espagne. | Diesen Sommer fahre ich nach Spanien.
+Je vais au Portugal en avion. | Ich fliege nach Portugal.
+Je voudrais aller aux États-Unis. | Ich möchte in die USA.
+Ma valise est trop lourde. | Mein Koffer ist zu schwer.
+Le vol est annulé. | Der Flug ist gestrichen.
 # wetter-erzaehlen | Wetter, Vergangenes & Pläne
 Quel temps fait-il ? | Wie ist das Wetter?
 Il fait beau. | Das Wetter ist schön.
@@ -477,83 +554,6 @@ Je ne vais pas venir demain. | Ich werde morgen nicht kommen.
 J'aimerais visiter Paris. | Ich würde gern Paris besichtigen.
 Qu'est-ce que tu vas faire ce soir ? | Was wirst du heute Abend machen?
 Je viens d'arriver. | Ich bin gerade angekommen.
-# verstaendigung | Verständigung, Bitten & Telefon
-Pardon ? | Wie bitte?
-Je ne comprends pas. | Ich verstehe nicht.
-Je n'ai pas compris. | Ich habe es nicht verstanden.
-Vous pouvez répéter, s'il vous plaît ? | Können Sie das bitte wiederholen?
-Vous pouvez parler plus lentement, s'il vous plaît ? | Können Sie bitte langsamer sprechen?
-Vous pouvez parler plus fort ? | Können Sie lauter sprechen?
-Qu'est-ce que ça veut dire ? | Was bedeutet das?
-Comment dit-on « Bahnhof » en français ? | Wie sagt man „Bahnhof“ auf Französisch?
-Comment ça s'écrit ? | Wie schreibt man das?
-Vous pouvez l'écrire, s'il vous plaît ? | Können Sie es bitte aufschreiben?
-Comment ça se prononce ? | Wie spricht man das aus?
-Je ne sais pas. | Ich weiß es nicht.
-Je ne connais pas ce mot. | Ich kenne dieses Wort nicht.
-Je parle un peu français. | Ich spreche ein bisschen Französisch.
-Je ne parle pas bien français. | Ich spreche nicht gut Französisch.
-Vous parlez anglais ? | Sprechen Sie Englisch?
-Vous pouvez m'aider, s'il vous plaît ? | Können Sie mir bitte helfen?
-Tu peux fermer la fenêtre ? | Kannst du das Fenster schließen?
-Vous pourriez m'aider ? | Könnten Sie mir helfen?
-Est-ce que je peux entrer ? | Darf ich hereinkommen?
-Je peux m'asseoir ici ? | Darf ich mich hier hinsetzen?
-Oui, bien sûr. | Ja, natürlich.
-Non, désolé, ce n'est pas possible. | Nein, tut mir leid, das ist nicht möglich.
-Il est interdit de fumer. | Rauchen ist verboten.
-Il faut réserver. | Man muss reservieren.
-Attention ! | Achtung!
-C'est vrai ? | Wirklich?
-Je ne suis pas d'accord. | Ich bin nicht einverstanden.
-Dommage ! | Schade!
-Ça dépend. | Kommt darauf an.
-Allô ? | Hallo? (am Telefon)
-Allô, c'est Daniel. | Hallo, hier ist Daniel.
-Je voudrais parler à madame Dupont, s'il vous plaît. | Ich möchte bitte mit Frau Dupont sprechen.
-C'est de la part de qui ? | Wer ist am Apparat?
-Ne quittez pas. | Bleiben Sie dran.
-Elle n'est pas là. | Sie ist nicht da.
-Je peux laisser un message ? | Kann ich eine Nachricht hinterlassen?
-Vous pouvez me rappeler ? | Können Sie mich zurückrufen?
-Je rappelle plus tard. | Ich rufe später wieder an.
-# fragen | Fragen & Antworten A1
-Qu'est-ce que c'est ? C'est un livre. | Was ist das? Das ist ein Buch.
-Qui est-ce ? C'est mon professeur. | Wer ist das? Das ist mein Lehrer.
-Tu as des enfants ? Oui, j'ai un fils. | Hast du Kinder? Ja, ich habe einen Sohn.
-Est-ce que tu as une voiture ? Non, je n'ai pas de voiture. | Hast du ein Auto? Nein, ich habe kein Auto.
-Tu n'aimes pas le café ? Si, j'adore le café ! | Magst du keinen Kaffee? Doch, ich liebe Kaffee!
-Tu parles anglais ? Oui, un peu. | Sprichst du Englisch? Ja, ein bisschen.
-Où est mon téléphone ? Il est sur la table. | Wo ist mein Handy? Es liegt auf dem Tisch.
-Où vas-tu ? Je vais à la boulangerie. | Wohin gehst du? Ich gehe zur Bäckerei.
-Quand pars-tu ? Je pars demain. | Wann fährst du? Ich fahre morgen.
-Comment vas-tu au travail ? À vélo. | Wie kommst du zur Arbeit? Mit dem Fahrrad.
-Combien de frères as-tu ? J'ai deux frères. | Wie viele Brüder hast du? Ich habe zwei Brüder.
-Pourquoi tu apprends le français ? Parce que j'aime voyager. | Warum lernst du Französisch? Weil ich gern reise.
-Quel jour sommes-nous ? Nous sommes mercredi. | Welcher Tag ist heute? Heute ist Mittwoch.
-Quelle est ta couleur préférée ? C'est le vert. | Was ist deine Lieblingsfarbe? Grün.
-Quels sports aimes-tu ? J'aime le tennis et le ski. | Welche Sportarten magst du? Ich mag Tennis und Skifahren.
-Tu viens d'où ? Je viens d'Autriche. | Woher kommst du? Ich komme aus Österreich.
-Avec qui tu vas au cinéma ? Avec ma sœur. | Mit wem gehst du ins Kino? Mit meiner Schwester.
-Qu'est-ce que tu manges le matin ? Je mange des céréales. | Was isst du morgens? Ich esse Müsli.
-Tu fais quoi ce soir ? Je reste à la maison. | Was machst du heute Abend? Ich bleibe zu Hause.
-Tu as un animal ? Oui, j'ai un chat. | Hast du ein Haustier? Ja, ich habe eine Katze.
-C'est à qui ? C'est à moi. | Wem gehört das? Das gehört mir.
-Tu travailles le samedi ? Non, je ne travaille jamais le samedi. | Arbeitest du samstags? Nein, samstags arbeite ich nie.
-Tu fumes ? Non, je ne fume plus. | Rauchst du? Nein, ich rauche nicht mehr.
-Tu veux quelque chose ? Non, merci, rien. | Willst du etwas? Nein danke, nichts.
-Il y a quelqu'un ? Non, il n'y a personne. | Ist da jemand? Nein, da ist niemand.
-Tu connais Paris ? Oui, je connais bien Paris. | Kennst du Paris? Ja, ich kenne Paris gut.
-Tu sais nager ? Oui, je sais nager. | Kannst du schwimmen? Ja, ich kann schwimmen.
-Tu peux venir demain ? Non, je dois travailler. | Kannst du morgen kommen? Nein, ich muss arbeiten.
-Tu veux un café ? Oui, s'il te plaît. | Willst du einen Kaffee? Ja, bitte.
-Il est quelle heure ? Il est trois heures. | Wie spät ist es? Es ist drei Uhr.
-Ton anniversaire, c'est quand ? C'est le dix mai. | Wann ist dein Geburtstag? Am zehnten Mai.
-Tu habites ici depuis quand ? Depuis deux ans. | Seit wann wohnst du hier? Seit zwei Jahren.
-Elle est française ? Non, elle est belge. | Ist sie Französin? Nein, sie ist Belgierin.
-Il est médecin ? Oui, il est médecin. | Ist er Arzt? Ja, er ist Arzt.
-Vous êtes combien ? Nous sommes trois. | Wie viele sind Sie? Wir sind zu dritt.
-Ça coûte combien ? Douze euros. | Was kostet das? Zwölf Euro.
 # pruefung | Prüfung Sprechen
 Bonjour, je m'appelle Daniel Becker, j'ai vingt-cinq ans. | Guten Tag, ich heiße Daniel Becker, ich bin fünfundzwanzig Jahre alt.
 Je suis allemand et j'habite à Munich. | Ich bin Deutscher und wohne in München.
