@@ -15,7 +15,13 @@ export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
   const c = id => cards[id];
 
   const markSeen = id => { if (!(store.get(id) || {}).seen) store.put(id, { seen: Date.now() }); };
-  const rateTrack = (id, track, n) => store.put(id, { [track]: srs.rate((store.get(id) || {})[track], n) });
+  // Erste Bewertung am Lerntag: immer morgen wieder (der Satz ist noch frisch, die echte Probe kommt am nächsten Tag).
+  const rateTrack = (id, track, n) => {
+    const cur = store.get(id) || {};
+    let r = srs.rate(cur[track], n);
+    if (!cur[track] && (cur.seen || 0) >= srs.dayStart()) r = { ...r, ivl: 1, due: srs.dayStart() + srs.DAY };
+    store.put(id, { [track]: r });
+  };
   const noteBox = id => `<textarea class="note" data-note="${id}" rows="2" placeholder="Eselsbrücke …">${esc((store.get(id) || {}).note || '')}</textarea>`;
   const stars = attr => `<div class="stars">${[1, 2, 3, 4, 5].map(n => `<button data-${attr}="${n}">${n}★</button>`).join('')}</div>`;
   body.addEventListener('change', e => { const n = e.target.dataset.note; if (n) store.put(n, { note: e.target.value.trim() }); });

@@ -300,6 +300,11 @@ document.addEventListener('submit', async e => {
   D = await (await fetch('content/data.json')).json();
   for (const g of [...D.islands, ...D.vocab]) { byId[g.id] = g; g.blocks.flat().forEach(id => { groupOf[id] = g.title; }); }
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+  // Korrektur alter Daten: Karten, die am Lerntag gleich für mehrere Tage weggelegt wurden, kommen am Tag danach wieder.
+  for (const id of Object.keys(D.cards)) {
+    const s = st(id), sp = s.sp, next = s.seen && srs.dayStart(s.seen) + srs.DAY;
+    if (sp && sp.reps === 1 && sp.due > next) store.put(id, { sp: { ...sp, ivl: 1, due: next } });
+  }
   loadGrammar().catch(() => {});
   sync.onStatus(s => { $('#sync').textContent = s; });
   await sync.init(route);

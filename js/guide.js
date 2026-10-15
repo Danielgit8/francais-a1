@@ -39,6 +39,8 @@ Das ist die eigentliche Lernübung. Du siehst den deutschen Satz und sagst ihn *
 | 4★ | richtig, kleine Unsicherheit | in ein paar Tagen |
 | 5★ | fehlerfrei und ohne Zögern | noch später |
 
+Ausnahme: Am Tag, an dem du einen Satz neu lernst, kommt er **immer am nächsten Tag** wieder, egal wie du ihn bewertest. Direkt nach dem Lernen ist er noch frisch im Kopf, die echte Probe kommt erst am Tag danach.
+
 Sei ehrlich mit dir: Nur wer ehrlich bewertet, bekommt die richtigen Wiederholungen. Bei 1–3★ kommt die Karte in derselben Runde noch einmal, aber höchstens dreimal. Danach geht es weiter, und morgen kommt sie wieder. Für den Plan zählt nur deine **erste** Bewertung.
 
 Hängst du fest, gibt es zwei Hilfen: **💡 Anfangsbuchstaben** zeigt den Anfang jedes Wortes, **🔊 Anhören** spielt den Satz vor. Mit Hilfe gibst du dir höchstens 3★.
