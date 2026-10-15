@@ -15,11 +15,11 @@ export function runSession(el, { mode, ids, title, cards, onClose, onDone }) {
   const c = id => cards[id];
 
   const markSeen = id => { if (!(store.get(id) || {}).seen) store.put(id, { seen: Date.now() }); };
-  // Erste Bewertung am Lerntag: immer morgen wieder (der Satz ist noch frisch, die echte Probe kommt am nächsten Tag).
+  // Bewertung am Lerntag oder zweite Bewertung am selben Tag: immer morgen wieder (noch frisch im Kopf, die echte Probe kommt am nächsten Tag).
   const rateTrack = (id, track, n) => {
-    const cur = store.get(id) || {};
-    let r = srs.rate(cur[track], n);
-    if (!cur[track] && (cur.seen || 0) >= srs.dayStart()) r = { ...r, ivl: 1, due: srs.dayStart() + srs.DAY };
+    const cur = store.get(id) || {}, prev = cur[track], today = srs.dayStart();
+    let r = srs.rate(prev, n);
+    if ((!prev && (cur.seen || 0) >= today) || (prev && srs.ratedOn(prev) === today)) r = { ...r, ivl: 1, due: today + srs.DAY };
     store.put(id, { [track]: r });
   };
   const noteBox = id => `<textarea class="note" data-note="${id}" rows="2" placeholder="Eselsbrücke …">${esc((store.get(id) || {}).note || '')}</textarea>`;

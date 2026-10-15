@@ -21,4 +21,6 @@ export function rate(track, stars, now = Date.now()) {
 }
 
 // Eine Karte "sitzt", wenn der Abstand mindestens 4 Tage beträgt.
-export const sits = track => !!track && track.ivl >= 4;
+// Tag der letzten Bewertung (aus Fälligkeit und Abstand zurückgerechnet, +6 h gegen Zeitumstellung).
+export const ratedOn = track => dayStart(track.due - track.ivl * DAY + 6 * 3600e3);
+export const sits =track => !!track && track.ivl >= 4;

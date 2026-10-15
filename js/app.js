@@ -303,7 +303,7 @@ document.addEventListener('submit', async e => {
   // Korrektur alter Daten: Karten, die am Lerntag gleich für mehrere Tage weggelegt wurden, kommen am Tag danach wieder.
   for (const id of Object.keys(D.cards)) {
     const s = st(id), sp = s.sp, next = s.seen && srs.dayStart(s.seen) + srs.DAY;
-    if (sp && sp.reps === 1 && sp.due > next) store.put(id, { sp: { ...sp, ivl: 1, due: next } });
+    if (sp && sp.ivl > 1 && srs.ratedOn(sp) === srs.dayStart(s.seen)) store.put(id, { sp: { ...sp, ivl: 1, due: next } });
   }
   loadGrammar().catch(() => {});
   sync.onStatus(s => { $('#sync').textContent = s; });
