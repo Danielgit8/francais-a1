@@ -10,7 +10,7 @@ const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const view = $('#view'), sessionEl = $('#session');
 const MODES = { a: 'Kennenlernen', b: 'Nachsprechen', c: 'Abrufen', d: 'Audio-Abrufen', e: 'Hintergrund' };
-let D, groupOf = {}, byId = {}, grammar = null, stash = [], session = null;
+let D, groupOf = {}, islOf = {}, byId = {}, grammar = null, stash = [], session = null;
 
 // ---------- Hilfen ----------
 const st = id => store.get(id) || {};
@@ -40,10 +40,17 @@ function resetCards(ids) {
 
 function todayNew(kind) {
   const s = store.settings(), t0 = srs.dayStart();
-  const ids = kind === 's' ? D.islands.flatMap(g => g.blocks.flat()) : (D.vorder || D.vocab.flatMap(g => g.blocks.flat()));
+  const ids = (kind === 's' ? D.islands : D.vocab).flatMap(g => g.blocks.flat());
   const seenToday = ids.filter(id => st(id).seen >= t0);
   const limit = new Date().getDay() === +s.restDay ? 0 : (kind === 's' ? +s.newS : +s.newV);
-  const fresh = ids.filter(id => !st(id).seen).slice(0, Math.max(0, limit - seenToday.length));
+  let fresh = ids.filter(id => !st(id).seen);
+  if (kind === 'v') {
+    // Neue Wörter nur zu Inseln, deren Sätze heute dran sind oder schon gelernt wurden.
+    const ns = todayNew('s'), next = D.islands.flatMap(g => g.blocks.flat()).find(id => !st(id).seen);
+    const maxIsl = ns.length ? Math.max(...ns.map(id => islOf[id])) : next ? islOf[next] : Infinity;
+    fresh = fresh.filter(id => islOf[id] <= maxIsl);
+  }
+  fresh = fresh.slice(0, Math.max(0, limit - seenToday.length));
   return [...seenToday, ...fresh];
 }
 
@@ -299,6 +306,8 @@ document.addEventListener('submit', async e => {
 (async function boot() {
   D = await (await fetch('content/data.json')).json();
   for (const g of [...D.islands, ...D.vocab]) { byId[g.id] = g; g.blocks.flat().forEach(id => { groupOf[id] = g.title; }); }
+  D.islands.forEach((g, k) => g.blocks.flat().forEach(id => { islOf[id] = k; }));
+  D.vocab.forEach(g => { const k = D.islands.findIndex(x => x.id === g.isl); g.blocks.flat().forEach(id => { islOf[id] = k < 0 ? 0 : k; }); });
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
   // Korrektur alter Daten: Karten, die am Lerntag gleich für mehrere Tage weggelegt wurden, kommen am Tag danach wieder.
   for (const id of Object.keys(D.cards)) {

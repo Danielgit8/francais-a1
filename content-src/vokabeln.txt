@@ -1,0 +1,437 @@
+# w-kontakt | Wörter: Begrüßen & Feste | kontakt
+les gens (m) | die Leute
+l'homme (m) | der Mann
+le garçon | der Junge
+le bébé | das Baby
+rencontrer | treffen, kennenlernen
+offrir | schenken
+l'invitation (f) | die Einladung
+le mariage | die Hochzeit
+le jour férié | der Feiertag
+Pâques | Ostern
+le Nouvel An | Neujahr
+la Saint-Sylvestre | Silvester
+heureux, heureuse | glücklich
+maintenant | jetzt
+toujours | immer
+ensemble | zusammen
+vraiment | wirklich
+malheureusement | leider
+# w-verstaendigung | Wörter: Verständigung & Telefon | verstaendigung
+la question | die Frage
+la réponse | die Antwort
+demander | fragen
+répondre | antworten
+expliquer | erklären
+entendre | hören
+oublier | vergessen
+penser | denken
+croire | glauben
+la phrase | der Satz
+le dictionnaire | das Wörterbuch
+facile | leicht, einfach
+difficile | schwierig
+juste | richtig
+faux, fausse | falsch
+important, importante | wichtig
+impossible | unmöglich
+le portable | das Handy
+l'appel (m) | der Anruf
+le SMS | die SMS
+l'application (f) | die App
+le mot de passe | das Passwort
+la lettre | der Brief
+assez | genug
+seulement | nur
+presque | fast
+alors | also, dann
+donc | deshalb, also
+# w-ueber-mich | Wörter: Person, Länder & Zahlen | ueber-mich
+le prénom | der Vorname
+la date de naissance | das Geburtsdatum
+le lieu de naissance | der Geburtsort
+le code postal | die Postleitzahl
+divorcé, divorcée | geschieden
+la carte d'identité | der Personalausweis
+la signature | die Unterschrift
+l'Angleterre (f) | England
+la Belgique | Belgien
+la Suisse | die Schweiz
+les Pays-Bas (m) | die Niederlande
+la Pologne | Polen
+la Turquie | die Türkei
+la Grèce | Griechenland
+le Maroc | Marokko
+le Canada | Kanada
+l'Europe (f) | Europa
+italien, italienne | italienisch
+américain, américaine | amerikanisch
+compter | zählen
+treize | dreizehn
+quatorze | vierzehn
+seize | sechzehn
+vingt et un | einundzwanzig
+quarante | vierzig
+soixante et onze | einundsiebzig
+quatre-vingt-un | einundachtzig
+quatre-vingt-onze | einundneunzig
+un million | eine Million
+# w-fragen | Wörter: Häufige kleine Wörter & Verben | fragen
+parfois | manchmal
+rarement | selten
+sans | ohne
+jusqu'à | bis
+surtout | vor allem
+environ | ungefähr
+partout | überall
+donner | geben
+montrer | zeigen
+utiliser | benutzen
+devenir | werden
+mettre | legen, stellen, anziehen
+# w-einkaufen | Wörter: Einkaufen, Kleidung & Farben | einkaufen
+l'argent (m) | das Geld
+le prix | der Preis
+la pièce de monnaie | die Münze
+le billet de dix euros | der Zehn-Euro-Schein
+la carte bancaire | die Bankkarte
+le ticket de caisse | der Kassenbon
+la promotion | das Sonderangebot
+gratuit, gratuite | kostenlos
+le client, la cliente | der Kunde, die Kundin
+vendre | verkaufen
+faire du shopping | shoppen gehen
+les vêtements (m) | die Kleidung
+le pantalon | die Hose
+le jean | die Jeans
+la veste | die Jacke
+le manteau | der Mantel
+la chemise | das Hemd
+la robe | das Kleid
+la jupe | der Rock
+les chaussures (f) | die Schuhe
+la pointure | die Schuhgröße
+les chaussettes (f) | die Socken
+le bonnet | die Mütze
+l'écharpe (f) | der Schal
+les gants (m) | die Handschuhe
+le parapluie | der Regenschirm
+blanc, blanche | weiß
+noir, noire | schwarz
+jaune | gelb
+gris, grise | grau
+rose | rosa
+les fruits (m) | das Obst
+les légumes (m) | das Gemüse
+la banane | die Banane
+l'orange (f) | die Orange
+le citron | die Zitrone
+la poire | die Birne
+la pomme de terre | die Kartoffel
+l'oignon (m) | die Zwiebel
+la carotte | die Karotte
+le concombre | die Gurke
+le poivron | die Paprika
+l'œuf (m) | das Ei
+le sucre | der Zucker
+le sel | das Salz
+l'huile (f) | das Öl
+le riz | der Reis
+les pâtes (f) | die Nudeln
+le yaourt | der Joghurt
+le chocolat | die Schokolade
+le gâteau | der Kuchen
+le bœuf | das Rindfleisch
+le porc | das Schweinefleisch
+# w-restaurant | Wörter: Essen & Trinken | restaurant
+le repas | die Mahlzeit
+le déjeuner | das Mittagessen
+déjeuner | zu Mittag essen
+commander | bestellen
+goûter | probieren (Essen)
+le serveur, la serveuse | der Kellner, die Kellnerin
+le pourboire | das Trinkgeld
+l'assiette (f) | der Teller
+la fourchette | die Gabel
+le couteau | das Messer
+la cuillère | der Löffel
+la tasse | die Tasse
+la serviette | die Serviette
+la bière | das Bier
+l'eau gazeuse (f) | das Sprudelwasser
+l'eau plate (f) | das stille Wasser
+la soupe | die Suppe
+la glace | das Eis
+la tarte | der Obstkuchen, die Tarte
+sucré, sucrée | süß
+salé, salée | salzig
+épicé, épicée | scharf
+frais, fraîche | frisch
+# w-weg | Wörter: Stadt & Richtungen | weg
+là-bas | dort
+en haut | oben
+en bas | unten
+au milieu | in der Mitte
+le nord | der Norden
+le sud | der Süden
+l'est (m) | der Osten
+l'ouest (m) | der Westen
+le chemin | der Weg
+la direction | die Richtung
+le trottoir | der Gehweg
+le village | das Dorf
+la banlieue | der Vorort
+le centre commercial | das Einkaufszentrum
+la boucherie | die Metzgerei
+la pâtisserie | die Konditorei
+l'épicerie (f) | der Lebensmittelladen
+la librairie | die Buchhandlung
+le bureau de tabac | der Tabakladen
+le distributeur | der Geldautomat
+le parking | der Parkplatz
+la bibliothèque | die Bibliothek
+l'église (f) | die Kirche
+le commissariat | die Polizeiwache
+l'office de tourisme (m) | die Touristeninformation
+# w-zeit | Wörter: Tage, Monate & Zeit | zeit
+jeudi | Donnerstag
+vendredi | Freitag
+janvier | Januar
+février | Februar
+mars | März
+avril | April
+juillet | Juli
+août | August
+septembre | September
+novembre | November
+décembre | Dezember
+l'automne (m) | der Herbst
+l'après-midi (m) | der Nachmittag
+ce matin | heute Morgen
+après-demain | übermorgen
+avant-hier | vorgestern
+il y a deux jours | vor zwei Tagen
+en ce moment | im Moment
+de temps en temps | ab und zu
+tout de suite | sofort
+tôt | früh
+en avance | zu früh
+à l'heure | pünktlich
+# w-wohnen | Wörter: Wohnung & Einrichtung | wohnen
+le studio | das Einzimmerapartment
+la salle à manger | das Esszimmer
+l'entrée (f) | der Eingang
+l'escalier (m) | die Treppe
+la porte | die Tür
+le mur | die Wand
+le sol | der Boden
+la cave | der Keller
+le garage | die Garage
+la terrasse | die Terrasse
+le meuble | das Möbelstück
+la chaise | der Stuhl
+le fauteuil | der Sessel
+le placard | der Wandschrank
+le réfrigérateur | der Kühlschrank
+la cuisinière | der Herd
+le four | der Backofen
+le micro-ondes | die Mikrowelle
+la machine à laver | die Waschmaschine
+la baignoire | die Badewanne
+le lavabo | das Waschbecken
+le miroir | der Spiegel
+la serviette de bain | das Handtuch
+le savon | die Seife
+le tapis | der Teppich
+le rideau | der Vorhang
+la lumière | das Licht
+le/la propriétaire | der Vermieter, die Vermieterin
+déménager | umziehen
+nettoyer | putzen
+laver | waschen
+propre | sauber
+sale | schmutzig
+bruyant, bruyante | laut
+dedans | drinnen
+dehors | draußen
+# w-gesundheit | Wörter: Körper & Gesundheit | gesundheit
+le corps | der Körper
+la main | die Hand
+le bras | der Arm
+la jambe | das Bein
+le genou | das Knie
+le visage | das Gesicht
+l'œil (m) | das Auge
+le nez | die Nase
+l'oreille (f) | das Ohr
+la bouche | der Mund
+le cou | der Hals
+l'épaule (f) | die Schulter
+le doigt | der Finger
+le cœur | das Herz
+l'estomac (m) | der Magen
+la peau | die Haut
+la douleur | der Schmerz
+la maladie | die Krankheit
+l'allergie (f) | die Allergie
+l'ordonnance (f) | das Rezept (vom Arzt)
+le pharmacien, la pharmacienne | der Apotheker, die Apothekerin
+le cabinet médical | die Arztpraxis
+les urgences (f) | die Notaufnahme
+l'accident (m) | der Unfall
+tomber | fallen, hinfallen
+se blesser | sich verletzen
+guérir | gesund werden
+nerveux, nerveuse | nervös
+fâché, fâchée | verärgert
+# w-leben | Wörter: Arbeit, Ämter & Berufe | leben
+l'emploi (m) | die Stelle, die Arbeitsstelle
+l'entreprise (f) | die Firma
+le salaire | das Gehalt
+gagner | verdienen, gewinnen
+à temps plein | in Vollzeit
+à temps partiel | in Teilzeit
+au chômage | arbeitslos
+les horaires (m) | die Arbeitszeiten
+les congés (m) | der Urlaub (von der Arbeit)
+la réunion | die Besprechung
+le chef, la cheffe | der Chef, die Chefin
+l'employé, l'employée | der Angestellte, die Angestellte
+l'ouvrier, l'ouvrière | der Arbeiter, die Arbeiterin
+l'assurance (f) | die Versicherung
+la facture | die Rechnung (für Strom, Telefon …)
+les impôts (m) | die Steuern
+la boîte aux lettres | der Briefkasten
+le timbre | die Briefmarke
+le permis de conduire | der Führerschein
+l'infirmière (f) | die Krankenschwester, die Pflegerin
+le boulanger, la boulangère | der Bäcker, die Bäckerin
+le coiffeur, la coiffeuse | der Friseur, die Friseurin
+le policier, la policière | der Polizist, die Polizistin
+l'ingénieur, l'ingénieure | der Ingenieur, die Ingenieurin
+l'informaticien, l'informaticienne | der Informatiker, die Informatikerin
+l'avocat, l'avocate | der Anwalt, die Anwältin
+le chauffeur | der Fahrer
+le facteur, la factrice | der Briefträger, die Briefträgerin
+le mécanicien, la mécanicienne | der Mechaniker, die Mechanikerin
+le/la secrétaire | der Sekretär, die Sekretärin
+# w-tagesablauf | Wörter: Alltag | tagesablauf
+le réveil | der Wecker
+se laver | sich waschen
+se préparer | sich fertig machen
+préparer | vorbereiten, zubereiten
+attendre | warten
+sortir | ausgehen, hinausgehen
+revenir | zurückkommen
+passer | verbringen
+s'occuper de | sich kümmern um
+la sieste | der Mittagsschlaf
+vite | schnell
+# w-familie | Wörter: Familie, Aussehen & Charakter | familie
+le grand-père | der Großvater
+le petit-fils, la petite-fille | der Enkel, die Enkelin
+les petits-enfants (m) | die Enkelkinder
+le neveu | der Neffe
+la nièce | die Nichte
+le/la partenaire | der Partner, die Partnerin
+beau, belle | schön
+moche | hässlich (umgangssprachlich)
+vieux, vieille | alt
+âgé, âgée | älter, alt (Person)
+roux, rousse | rothaarig
+les cheveux frisés | lockige Haare
+les cheveux raides | glatte Haare
+la moustache | der Schnurrbart
+aimable | freundlich
+poli, polie | höflich
+impoli, impolie | unhöflich
+méchant, méchante | gemein, böse
+bête | dumm
+patient, patiente | geduldig
+travailleur, travailleuse | fleißig
+curieux, curieuse | neugierig
+généreux, généreuse | großzügig
+sociable | gesellig
+amoureux, amoureuse | verliebt
+# w-vorlieben | Wörter: Freizeit, Sport & Tiere | vorlieben
+la salle de sport | das Fitnessstudio
+la musculation | das Krafttraining
+le jogging | das Joggen
+courir | laufen, rennen
+la randonnée | das Wandern
+la promenade | der Spaziergang
+le basket | der Basketball
+le match | das Spiel (Sport)
+l'équipe (f) | die Mannschaft
+chanter | singen
+la chanson | das Lied
+la danse | der Tanz
+le théâtre | das Theater
+l'exposition (f) | die Ausstellung
+la peinture | die Malerei
+le roman | der Roman
+la BD | der Comic
+le journal | die Zeitung
+le magazine | die Zeitschrift
+la radio | das Radio
+les réseaux sociaux (m) | die sozialen Netzwerke
+le jeu vidéo | das Videospiel
+les échecs (m) | das Schach
+le jardinage | die Gartenarbeit
+le pique-nique | das Picknick
+génial, géniale | genial
+nul, nulle | blöd, schlecht
+l'oiseau (m) | der Vogel
+le cheval | das Pferd
+la vache | die Kuh
+le cochon | das Schwein
+le mouton | das Schaf
+la poule | das Huhn
+le lapin | das Kaninchen
+la souris | die Maus
+# w-reisen | Wörter: Verkehr & Reisen | reisen
+conduire | Auto fahren
+la moto | das Motorrad
+le tram | die Straßenbahn
+le car | der Reisebus
+le bateau | das Schiff
+le départ | die Abfahrt
+l'arrivée (f) | die Ankunft
+l'horaire (m) | der Fahrplan
+le guichet | der Schalter
+le quai | der Bahnsteig
+la correspondance | der Anschluss
+les bagages (m) | das Gepäck
+le sac à dos | der Rucksack
+la route | die Landstraße
+l'autoroute (f) | die Autobahn
+l'essence (f) | das Benzin
+la station-service | die Tankstelle
+la réception | die Rezeption
+la chambre simple | das Einzelzimmer
+le séjour | der Aufenthalt
+le/la touriste | der Tourist, die Touristin
+le guide | der Reiseführer
+le souvenir | das Andenken
+l'auberge de jeunesse (f) | die Jugendherberge
+le camping | der Campingplatz
+l'étranger (m) | das Ausland
+la frontière | die Grenze
+# w-wetter-erzaehlen | Wörter: Wetter & Natur | wetter-erzaehlen
+la météo | der Wetterbericht
+la pluie | der Regen
+la neige | der Schnee
+l'orage (m) | das Gewitter
+le brouillard | der Nebel
+la température | die Temperatur
+ensoleillé, ensoleillée | sonnig
+nuageux, nuageuse | bewölkt
+le ciel | der Himmel
+l'air (m) | die Luft
+la nature | die Natur
+la forêt | der Wald
+le lac | der See
+la rivière | der Fluss
+l'île (f) | die Insel
+l'arbre (m) | der Baum
+la fleur | die Blume

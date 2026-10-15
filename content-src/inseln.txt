@@ -541,7 +541,7 @@ Je voyage en train. | Ich reise mit dem Zug.
 Bonjour, j'ai une réservation au nom de Becker. | Guten Tag, ich habe eine Reservierung auf den Namen Becker.
 Vous avez une chambre pour deux nuits ? | Haben Sie ein Zimmer für zwei Nächte?
 Une chambre double avec salle de bains, s'il vous plaît. | Ein Doppelzimmer mit Bad, bitte.
-C'est combien la nuit ? | Was kostet eine Nacht?
+C'est combien, la nuit ? | Was kostet eine Nacht?
 Le petit-déjeuner est compris ? | Ist das Frühstück inklusive?
 Le petit-déjeuner est à quelle heure ? | Um wie viel Uhr gibt es Frühstück?
 Il y a le wifi ? | Gibt es WLAN?
